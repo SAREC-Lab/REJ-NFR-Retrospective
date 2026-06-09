@@ -32,7 +32,7 @@ Together, these artifacts document how a single research contribution evolved in
 
 | Directory          | Description                                             |
 | ------------------ | ------------------------------------------------------- |
-|[papers](papers.md)| References and metadata for analyzed papers             |
+|[Analyzed Papers](papers.md)| References and metadata for analyzed papers             |
 | `impact-analysis/` | Citation analysis results and influence classifications |
 | `codebooks/`       | Thematic coding schema and supporting artifacts         |
 | `datasets/`        | PROMISE datasets and related resources                  |
