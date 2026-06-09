@@ -4,5 +4,5 @@ To understand the long-term impact of the original work, we conducted a systemat
 
 Each paper was analyzed to determine how it engaged with the original work, including its use of the PROMISE NFR dataset, methodological contributions, application domains, and influence on subsequent research. The resulting corpus provides a twenty-year view of how automated NFR classification evolved from early machine-learning approaches to modern AI-based techniques.
 
-- **Paper List:** [Listing of Analyzed Papers](paper-listing.md)
+[Paper List](paper-listing.md)
 
