@@ -36,7 +36,7 @@ Together, these artifacts document how a single research contribution evolved in
 | `impact-analysis/` | Citation analysis results and influence classifications |
 | `codebooks/`       | Thematic coding schema and supporting artifacts         |
 | `datasets/`        | PROMISE datasets and related resources                  |
-| `replications/`    | Replication implementations of selected approaches      |
+| [Replicated Techniques](replication/overview.md)| Replication implementations of selected approaches      |
 | `benchmarks/`      | Comparative evaluation results                          |
 | `scripts/`         | Data collection, analysis, and processing scripts       |
 | `artifacts/`       | Generated outputs, prompts, and intermediate files      |
