@@ -1,0 +1,130 @@
+{
+  "availability": {
+    "core_concern": "The degree to which the system is operational and accessible when required for use. Availability requirements constrain whether the system can be used at a given time — not how fast it responds, but whether it is up and reachable at all.",
+    "classify_if": [
+      "States a minimum uptime percentage or maximum downtime (e.g. '99.9% uptime', 'no more than 4 hours downtime per month')",
+      "Specifies hours or windows during which the system must be accessible (e.g. 'available 24 hours a day, 7 days a week', 'accessible during business hours 8am–6pm')",
+      "Constrains scheduled outage or maintenance windows — when the system is permitted to be taken offline",
+      "Requires that the system remain operational if one or more components fail (fault tolerance, graceful degradation, failover)",
+      "Requires redundancy or recovery mechanisms to ensure continuous service",
+      "Specifies recovery time or recovery point objectives (how quickly the system must be restored after failure, or how much data loss is acceptable)",
+      "States that certain services (e.g. telephone support, help desk) must be reachable during defined hours"
+    ],
+    "boundary_notes": "Availability is about access — whether the system is up. Performance is about speed — how fast the system responds when it is up. A requirement that says 'the system must respond within 2 seconds' is Performance, not Availability. Scheduled maintenance windows that define when downtime is permitted are Availability; requirements about how upgrades are performed or how quickly releases are deployed belong to Maintainability."
+  },
+  "legal": {
+    "core_concern": "The system must comply with applicable laws, regulations, standards, and contractual obligations imposed by external authorities. Legal requirements exist because some aspect of the system's operation, data handling, or design is governed by rules outside the organisation's control.",
+    "classify_if": [
+      "Cites a specific named law, regulation, or directive the system must comply with (e.g. GDPR, HIPAA, Sarbanes-Oxley, ADA / Section 508, PCI-DSS, FERPA)",
+      "Requires conformance to an industry standard or operating regulation imposed by a governing body (e.g. payment network rules, medical device regulations, financial reporting standards)",
+      "Mandates an audit trail, record-retention policy, or tamper-evident log because a regulation requires it (not merely for operational convenience)",
+      "Requires the system to pass an independent audit or certification by a named authority",
+      "Imposes licensing restrictions on the software or its components due to third-party intellectual property obligations",
+      "Requires a specific data-privacy notice, consent mechanism, or opt-out right as mandated by law",
+      "Requires conformance to accessibility legislation (e.g. screen-reader support because the law mandates it for public-sector systems)",
+      "Requires conformance to a design, interface, or technical standard imposed by an external regulatory or governing body — not an internal company guideline — (e.g. a mandated accessibility interface standard, a certification-required protocol specification, a government-mandated data format)"
+    ],
+    "boundary_notes": "The key distinction for standards is the source: a standard imposed by an external regulatory or governing body is Legal; an internal corporate UI style guide, branding guideline, or architectural convention is not Legal, even if described as mandatory internally — classify those as Look-and-Feel or Operational depending on content. Data protection requirements driven by security best practice are Security; those driven by a specific privacy law (e.g. GDPR) are Legal. Many requirements are both — mark both types true in that case. Audit trail, data retention, and personal-data access control requirements should be classified as Security unless a specific named law or regulation is explicitly cited in the text — the mere fact that such requirements could be legally motivated is not sufficient. Similarly, software licensing and royalty requirements belong to Operational unless a named legal obligation is cited. Only classify as Legal when the requirement explicitly references an external law, regulation, governing body, or named standard — implied legal motivation is not enough."
+  },
+  "look-and-feel": {
+    "core_concern": "The visual appearance, aesthetic style, and sensory presentation of the system's interface. Look-and-feel requirements define how the system looks, independent of how easy it is to use or how well it performs.",
+    "classify_if": [
+      "Specifies a colour scheme, palette, or colour-coding convention the interface must follow",
+      "Requires the interface to carry specific branding elements (logos, typography, corporate identity)",
+      "Describes a desired aesthetic quality (professional, modern, consistent, attractive, minimalist, fun, culturally appropriate)",
+      "Specifies a layout structure — how screen regions are divided, where elements are positioned, display resolution or aspect ratio constraints",
+      "Requires the interface to match or follow a visual style guide or template",
+      "Mandates animations, sounds, or other sensory effects as part of the user experience",
+      "Requires that terminology, symbols, or icons be visually consistent or domain-appropriate as a style requirement rather than a learnability requirement",
+      "Requires that the interface be viewable or readable under specific physical conditions (projected display, particular screen resolution, minimum font size)"
+    ],
+    "boundary_notes": "Look-and-feel is about appearance and aesthetics. Usability is about ease of learning and use. 'The interface shall have a consistent layout' is Look-and-Feel; 'a new user shall complete a task within 5 minutes' is Usability. Requirements that mandate compliance with an external design standard may also be Legal."
+  },
+  "maintainability": {
+    "core_concern": "The ease and efficiency with which the system can be modified, corrected, adapted, and kept operational over its lifetime. Maintainability requirements address the long-term health of the system — how readily it can be changed by developers and administrators after initial deployment.",
+    "classify_if": [
+      "States how quickly or easily a developer or administrator can make a change, add a feature, or integrate new functionality (e.g. 'a developer shall be able to add a new module within 2 days')",
+      "Requires the system to be designed according to coding standards, design patterns, architectural principles, or modularity guidelines that facilitate future change",
+      "Requires the system to be configurable — that its behaviour can be adjusted through configuration rather than code changes (e.g. supporting different database backends, language packs, or business rule files without modifying source code)",
+      "Specifies a release or update schedule (e.g. 'major releases every 6 months', 'patches released quarterly') where the focus is on the cadence of change delivery",
+      "Specifies the timing or process for applying updates, patches, or upgrades to a deployed system (maintenance windows, installation time constraints for updates)",
+      "Requires that logs, exception reports, or diagnostic information be produced to help administrators identify and resolve problems",
+      "Requires that system documentation (user guides, developer guides) be kept in sync with system changes",
+      "Requires that data or configuration be periodically validated or refreshed to maintain integrity (data integrity scripts, scheduled data refreshes)",
+      "States how long the system is expected to remain in active use or be supported (operational lifespan)"
+    ],
+    "boundary_notes": "Maintainability is about changing or sustaining the system. Operational requirements describe the environment the system runs in. A requirement about which OS the system must run on is Operational; how quickly a developer can port the system to a new OS is Maintainability. Availability addresses whether the system stays up; Maintainability addresses whether it can be updated and kept up. Scheduled maintenance windows appear in both: the existence of a window (when downtime is permitted) is Availability; the process of applying updates during that window is Maintainability."
+  },
+  "operational": {
+    "core_concern": "The environment, infrastructure, and external systems with which the software must operate. Operational requirements define the context in which the system is deployed and run — constraining the technical environment, external system interfaces, and how the system is installed and administered.",
+    "classify_if": [
+      "Specifies the hardware platform, operating system, or runtime environment the system must support (e.g. 'must run on Windows Server', 'must support Java 11 on Linux')",
+      "Specifies browser, device, or client compatibility (e.g. 'must work with Firefox and Chrome', 'must function on mobile devices')",
+      "Requires the system to interface or integrate with a specific named external system, database, or API (e.g. 'must connect to the corporate LDAP directory', 'must integrate with the payment gateway')",
+      "Specifies data exchange formats or protocols the system must use when communicating with external systems (e.g. XML, REST, SOAP, EDI)",
+      "Describes how the system is packaged, distributed, or installed (e.g. 'must be installable from a download', 'installation must complete within 1 hour')",
+      "Describes the physical or organisational environment in which the system will operate (e.g. 'must operate in a noisy workshop environment', 'must function in a low-bandwidth field setting')",
+      "Specifies third-party software or middleware the system must use or avoid (e.g. 'must use an open-source DBMS', 'must not require royalty-bearing third-party components')",
+      "Specifies the minimum hardware specification that users' machines must meet to run the system"
+    ],
+    "boundary_notes": "Operational requirements describe the environment in which the system runs. Performance requirements describe how fast it runs in that environment. Scalability requirements describe how the environment must grow as demand increases. Requirements about what external systems the product connects to are Operational; requirements about how fast those connections must be are Performance."
+  },
+  "performance": {
+    "core_concern": "The timeliness and efficiency with which the system carries out its functions under specified conditions. Performance requirements define quantitative constraints on how fast the system must respond, how much work it must process, and how efficiently it uses resources.",
+    "classify_if": [
+      "States a maximum acceptable response time or end-to-end latency for a user-facing or system-to-system operation (e.g. 'search results must be returned within 3 seconds')",
+      "States a throughput target — the number of transactions, requests, records, or operations the system must handle per unit of time (e.g. 'must process 500 transactions per second')",
+      "States a percentile-based timing constraint (e.g. '95% of requests must complete within 2 seconds; 99% within 5 seconds')",
+      "Specifies performance under a particular load or network condition (e.g. 'response time must not exceed 6 seconds on a 56k connection')",
+      "Specifies a time limit for a batch or background process (e.g. 'nightly reports must complete within 2 hours')",
+      "Constrains CPU, memory, disk, or bandwidth consumption",
+      "Requires that the system handle a specified number of concurrent users without degradation (emphasis on maintaining speed under load)"
+    ],
+    "boundary_notes": "Performance is about speed and efficiency now. Scalability is about capacity to grow in the future. 'The system must handle 1,000 concurrent users without response times exceeding 2 seconds' is Performance. 'The system must scale to 10,000 users within two years' is Scalability. Availability is about whether the system is up; Performance is about how fast it is when it is up."
+  },
+  "scalability": {
+    "core_concern": "The system's capacity to accommodate growth in users, data volume, or transaction load, either by design or through the addition of resources. Scalability requirements look forward — describing obligations to handle growth beyond the system's initial deployment size.",
+    "classify_if": [
+      "States a future or projected capacity target larger than the current deployment size, with an explicit growth expectation (e.g. 'currently supports 1,000 users but must scale to 10,000 within two years')",
+      "Requires the system to support horizontal or vertical scaling — adding servers, nodes, or resources to increase capacity",
+      "Requires that capacity increases can be made without service interruption or re-architecture",
+      "Specifies a multi-year capacity projection or states the system must serve a growing user base or data set over a defined horizon",
+      "Requires the system to support additional geographic regions, languages, or market segments as the user base grows",
+      "Requires the system to be designed so that processing capacity, storage, or throughput limits are not hard-coded and can be extended",
+      "Specifies a maximum concurrent user, session, connection, or transaction capacity the system must support (even without explicit future-growth language)"
+    ],
+    "boundary_notes": "A requirement specifying the current steady-state load the system must handle is Performance. A requirement specifying how that capacity must grow, or that the system must be able to add capacity on demand, is Scalability. Some requirements contain both a current performance target and a growth target — mark both Performance and Scalability in that case."
+  },
+  "security": {
+    "core_concern": "The protection of the system, its data, and its users from unauthorised access, disclosure, modification, or destruction. Security requirements define who may access what, how data is protected in transit and at rest, and how the system defends against misuse and attack.",
+    "classify_if": [
+      "Requires that users authenticate before accessing the system (login, password, multi-factor authentication, certificates)",
+      "Defines access control rules — which roles or users are permitted to perform which actions or view which data",
+      "Requires that data be encrypted in storage or in transit",
+      "Requires that the system resist or detect malicious inputs, attacks, or abuse (e.g. SQL injection prevention, denial-of-service mitigation, virus scanning)",
+      "Requires that the system maintain an audit log of user actions for accountability or forensic purposes (when motivated by security rather than regulatory obligation)",
+      "Requires that the system protect user privacy — limiting disclosure of personal or sensitive data to authorised parties",
+      "Requires that the system enforce data integrity to prevent unauthorised corruption or tampering",
+      "Requires that the system manage accounts — creating, suspending, or revoking access as users join or leave",
+      "Requires secure session management (e.g. session timeouts, no persistent login cookies for sensitive systems)",
+      "Requires the system to remain operational or fail safely in response to malicious input or attack"
+    ],
+    "boundary_notes": "Security requirements that are also mandated by law (e.g. GDPR encryption obligations) are both Security and Legal — mark both. Audit trail requirements motivated by regulatory compliance are Legal; those motivated by detecting or investigating unauthorised activity are Security. Data integrity checks preventing tampering are Security; data integrity checks ensuring a scheduled import completed correctly are Maintainability or Operational."
+  },
+  "usability": {
+    "core_concern": "The effectiveness, efficiency, and satisfaction with which users can learn and use the system to achieve their goals. Usability requirements constrain the user experience from the perspective of the human doing work with the system, measured in terms of learnability, task success, error rates, and satisfaction.",
+    "classify_if": [
+      "States how much training or familiarisation time is required before users can operate the system (e.g. 'users must be able to perform core tasks after one day of training')",
+      "States a task-completion success rate, time, or error count that must be achieved by a defined user population (e.g. '90% of new users must complete registration within 5 minutes')",
+      "States that the system must be intuitive, self-explanatory, or operable without a manual by a particular user group",
+      "Requires the system to prevent or reduce user errors, or to provide clear feedback when errors occur",
+      "Requires that the system provide help, documentation, or on-screen guidance that users can locate and use effectively",
+      "Requires that the interface use terminology, language, or conventions that are familiar and natural to the target user community",
+      "Requires that the system support multiple natural languages or locales to allow diverse user groups to work in their preferred language",
+      "Specifies user satisfaction targets measured by survey or observation",
+      "Requires that certain tasks be reachable within a specified number of navigation steps (when motivated by ease of use rather than visual tidiness)",
+      "Requires that the system be accessible to users with disabilities (when motivated by ease of use rather than legal obligation)"
+    ],
+    "boundary_notes": "Usability is about ease of learning and how the system is used. It should not only be about a specific feature that could be tested in a binary way. Look-and-feel is about visual appearance. 'The interface shall have a consistent colour scheme' is Look-and-Feel; 'a new user shall complete checkout within 3 minutes without assistance' is Usability. Response-time requirements stated from a user-experience perspective may be both Usability and Performance — mark both if the requirement includes a measurable time bound. Accessibility requirements driven by legal mandate are also Legal."
+  }
+}

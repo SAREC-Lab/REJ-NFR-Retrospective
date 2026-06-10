@@ -86,7 +86,7 @@ The paper used stratified 10-fold cross-validation (not LOPO) and reported F1. T
 ## How to Run
 
 ```bash
-cd p011/
+cd p011-classicML/
 pip install -r requirements.txt
 python3 run_p011_classifiers.py
 ```

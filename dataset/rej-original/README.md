@@ -92,7 +92,7 @@ All three rules from `rules.txt` apply:
 ## How to Run
 
 ```bash
-cd rej/
+cd rej-original/
 pip install -r requirements.txt
 python3 run_rej_classifier.py
 ```

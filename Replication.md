@@ -32,7 +32,7 @@ Assigns each requirement to the NFR type whose label embedding has the highest c
 
 **Paper:** Alhoshan, W., Ferrari, A., and Zhao, L. "Zero-Shot Learning for Requirements Classification: An Exploratory Study." *Requirements Engineering*, 28:15–33, 2023. [[link]](PLACEHOLDER)
 
-**Replication:** [`p003-zeroshot/README.md`](./p003-zeroshot/README.md)
+**Replication:** [`p003-zeroshot/README.md`](./dataset/p003-zeroshot/README.md)
 
 ---
 
@@ -42,7 +42,7 @@ Three classifiers — a graph-based k-NN using dependency-parse structure, an SV
 
 **Paper:** Slankas, J. and Williams, L. "Automated Extraction of Non-Functional Requirements in Available Documentation." *NaturaLiSE*, 2013. [[link]](PLACEHOLDER)
 
-**Replication:** [`p011-classicML/README.md`](./p011-classicML/README.md)
+**Replication:** [`p011-classicML/README.md`](./dataset/p011-classicML/README.md)
 
 ---
 
@@ -52,4 +52,4 @@ A multi-agent LLM pipeline in which advocate agents argue for candidate NFR type
 
 **Paper:** *(this work)*
 
-**Replication:** [`agents/README.md`](./agents/README.md)
+**Replication:** [`agents/README.md`](./dataset/agents/README.md)

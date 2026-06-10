@@ -102,7 +102,7 @@ Results for the current dataset (`promise-june2026.csv`, 622 requirements) are f
 ## How to Run
 
 ```bash
-cd zeroshot/
+cd p003-zeroshot/
 pip install -r requirements.txt
 python3 run_zeroshot.py
 ```
