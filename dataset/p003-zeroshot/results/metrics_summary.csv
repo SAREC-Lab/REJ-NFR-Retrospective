@@ -1,0 +1,5 @@
+model,label_config,precision,recall,f1,f2,specificity
+minilm,original,0.4198,0.394,0.336,0.3589,0.9212
+minilm,expert,0.4869,0.4523,0.4334,0.4364,0.9327
+mpnet,original,0.3986,0.363,0.3032,0.3219,0.9196
+mpnet,expert,0.5012,0.4853,0.4636,0.4698,0.9387

@@ -1,0 +1,367 @@
+requirement_id,project_id,requirement_text,true_label,predicted_label,similarity_score,model,label_configuration
+R001,1,The system shall refresh the display every 60 seconds.,performance,performance,0.3185480833053589,minilm,expert
+R002,1,The application shall match the color of the schema set forth by Department of Homeland Security,legal,security,0.26923009753227234,minilm,expert
+R003,1,If projected the data must be readable. On a 10x10 projection screen 90% of viewers must be able to read Event / Activity data from a viewing distance of 30,look-and-feel,scalability,0.1793455183506012,minilm,expert
+R004,1,The product shall be available during normal business hours. As long as the user has access to the client PC the system will be available 99% of the time during the first six months of operation.,availability,availability,0.3148772716522217,minilm,expert
+R005,1,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,look-and-feel,availability,0.1727248877286911,minilm,expert
+R006,1,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts,security,security,0.6382924318313599,minilm,expert
+R007,1,The product shall be intuitive and self-explanatory. : 90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.,usability,availability,0.3024488687515259,minilm,expert
+R008,1,The product shall respond fast to keep up-to-date data in the display.,performance,availability,0.3910507261753082,minilm,expert
+R013,1,The display shall have two regions: left 2/3 of the display is graphical right 1/3 of the display is a data table,look-and-feel,look-and-feel,0.16328221559524536,minilm,expert
+R015,1,The table side of the display shall be split into 2 regions: sequential and temporal.,look-and-feel,availability,0.24629464745521545,minilm,expert
+R016,1,The top 1/4 of the table will hold events that are to occur sequentially.,look-and-feel,availability,0.24769607186317444,minilm,expert
+R017,1,The bottom 3/4 of the table will hold events that occur according to its relevance to current time.,look-and-feel,availability,0.21506914496421814,minilm,expert
+R018,1,The system shall color code events according to their variance from current time.,look-and-feel,availability,0.27312183380126953,minilm,expert
+R019,1,The system shall display data from the Sync Matrix 1.0 and Exercise Management Tool 1.0 applications,look-and-feel,operational,0.22942578792572021,minilm,expert
+R020,1,The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.,maintainability,maintainability,0.2815910875797272,minilm,expert
+R029,2,The look and feel of the system shall conform to the user interface standards of the smart device.,look-and-feel,look-and-feel,0.5559937953948975,minilm,expert
+R030,2,The user interface shall have standard menus buttons for navigation,look-and-feel,look-and-feel,0.23856908082962036,minilm,expert
+R031,2,The system shall have a professional appearance,look-and-feel,look-and-feel,0.38788920640945435,minilm,expert
+R032,2,The product shall have a consistent color scheme and fonts.,look-and-feel,look-and-feel,0.41662678122520447,minilm,expert
+R033,2,The system shall be used by realtors with no training.,usability,legal,0.23894348740577698,minilm,expert
+R034,2,The system shall be intuitive and self explanatory.,usability,usability,0.4071415662765503,minilm,expert
+R035,2,The product shall be easy for a realtor to learn.,usability,usability,0.35987889766693115,minilm,expert
+R036,2,The product shall use symbols and words that are naturally understandable by the realtor community.,look-and-feel,usability,0.34784990549087524,minilm,expert
+R037,2,The product shall produce search results in an acceptable time,performance,availability,0.38020187616348267,minilm,expert
+R038,2,The search results shall be returned no later 30 seconds after the user has entered the search criteria,performance,availability,0.24629876017570496,minilm,expert
+R039,2,The product shall generate a CMA report in an acceptable time.,performance,availability,0.32717669010162354,minilm,expert
+R040,2,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,performance,availability,0.23227384686470032,minilm,expert
+R041,2,The product shall synchronize contacts and appointments in an acceptable time.,performance,availability,0.40225422382354736,minilm,expert
+R042,2,The product shall synchronize with the office system every hour.,performance,availability,0.34559160470962524,minilm,expert
+R043,2,The product shall be available for use 24 hours per day 365 days per year,availability,performance,0.31361812353134155,minilm,expert
+R044,2,Out of 1000 accesses to the system the system is available 999 times.,availability,security,0.2269076108932495,minilm,expert
+R050,2,The product shall be able support 1000 simultaneous users.,scalability,scalability,0.3277645409107208,minilm,expert
+R051,2,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.,performance,scalability,0.360390841960907,minilm,expert
+R052,2,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.,usability,legal,0.22785308957099915,minilm,expert
+R053,2,90% of untrained realtors shall be able to install the product on their device without printed instructions,usability,legal,0.24702605605125427,minilm,expert
+R055,2,Only registered realtors shall be able to access the system.,security,security,0.31180715560913086,minilm,expert
+R056,2,Every user of the system shall be authenticated and authorized.,security,security,0.5149034261703491,minilm,expert
+R057,2,The product shall prevent its data from incorrect data being introduced.,security,security,0.2603146433830261,minilm,expert
+R069,3,The system shall be easy to use by the Program Administrators/Nursing Staff Members.,usability,usability,0.3217707872390747,minilm,expert
+R070,3,All of the users shall be able to use the system after one day of training.,usability,security,0.24556925892829895,minilm,expert
+R071,3,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,usability,performance,0.2572462558746338,minilm,expert
+R072,3,The number of mistakes noted by the students shall be decreased by 50% in the first year.,usability,performance,0.13428963720798492,minilm,expert
+R073,3,The system shall be intuitive to the Program Administrators/Nursing Staff Members.,usability,operational,0.32451751828193665,minilm,expert
+R074,3,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,usability,performance,0.31016454100608826,minilm,expert
+R075,3,The system shall use symbols and words that are naturally understandable by the user community.,look-and-feel,usability,0.4067748785018921,minilm,expert
+R076,3,The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.,look-and-feel,maintainability,0.2854262888431549,minilm,expert
+R077,3,Staff members shall be able to complete a set of tasks in a timely manner.,performance,availability,0.48622414469718933,minilm,expert
+R078,3,The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.,performance,performance,0.35306787490844727,minilm,expert
+R079,3,The system shall be available for use between the hours of 8am and 6pm.,availability,availability,0.30802035331726074,minilm,expert
+R080,3,The system shall achieve 95% up time.,availability,availability,0.33648353815078735,minilm,expert
+R081,3,system shall be able to handle all of the user requests/usage during business hours.,availability,security,0.3233613967895508,minilm,expert
+R082,3,The system shall cater to 10 simultaneous users from 9am to 5pm.,availability,availability,0.2642538547515869,minilm,expert
+R083,3,The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.,scalability,performance,0.2128792256116867,minilm,expert
+R084,3,The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.,scalability,performance,0.2801426649093628,minilm,expert
+R085,3,The system shall able to operate within a business office environment typical of the Nursing Department at DePaul University.,operational,operational,0.3613264858722687,minilm,expert
+R086,3,The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.,operational,security,0.2999030649662018,minilm,expert
+R087,3,The system shall operate within the Windows XP Professional operating system.,operational,operational,0.2630680799484253,minilm,expert
+R088,3,The system shall interface with CampusConnect's central server,operational,operational,0.3149191737174988,minilm,expert
+R089,3,The system shall interface with the faculty central server.,operational,operational,0.3202471435070038,minilm,expert
+R090,3,The system shall interface with the student master server.,operational,operational,0.26408809423446655,minilm,expert
+R091,3,We must be able to interface with any HTML browser.,operational,scalability,0.20545554161071777,minilm,expert
+R092,3,Only authorized users shall have access to clinical site information.,security,security,0.3386891484260559,minilm,expert
+R093,3,Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.,security,security,0.2308218777179718,minilm,expert
+R094,3,Only authorized users shall have access to students' personal information.,security,security,0.4096152186393738,minilm,expert
+R095,3,Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students' personal information.,security,security,0.14536479115486145,minilm,expert
+R096,3,Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.,security,security,0.43849968910217285,minilm,expert
+R097,3,Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.,security,availability,0.2169247567653656,minilm,expert
+R098,3,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.,security,security,0.2832091152667999,minilm,expert
+R099,3,The system shall protect private information in accordance with the organization's information policy.,legal,security,0.47898662090301514,minilm,expert
+R100,3,The system shall be built such that it is as secure as possible from malicious interference.,security,security,0.41976070404052734,minilm,expert
+R101,3,The system shall use the organization's standard virus protection software to help monitor threats to itself.,security,security,0.3176717758178711,minilm,expert
+R148,4,The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.,look-and-feel,legal,0.2760719656944275,minilm,expert
+R149,4,All screens created as part of the Disputes application must comply with corporate standards for interface creation.,look-and-feel,legal,0.24244600534439087,minilm,expert
+R150,4,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,look-and-feel,legal,0.23036757111549377,minilm,expert
+R151,4,100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.,scalability,performance,0.2933688163757324,minilm,expert
+R152,4,100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,scalability,legal,0.17308872938156128,minilm,expert
+R153,4,100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,scalability,performance,0.2372562438249588,minilm,expert
+R154,4,The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.,performance,availability,0.3149380683898926,minilm,expert
+R155,4,The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,performance,performance,0.291786789894104,minilm,expert
+R156,4,The Disputes application shall be available 24x7x365 with the exception of the following scheduled maintenance windows. Monday â€“ Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST,availability,legal,0.3323550224304199,minilm,expert
+R157,4,The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database,operational,legal,0.1911548674106598,minilm,expert
+R158,4,The Disputes application shall interface with the Cardmember Information Database. The Cardmember Information Database provides detailed information with regard to a cardmember. All cardmember detail information must be obtained from the Cardmember Information Database.,operational,legal,0.1510339379310608,minilm,expert
+R159,4,The Disputes applications shall interface with the Merchant Information Database. The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.,operational,legal,0.17913490533828735,minilm,expert
+R160,4,The Disputes application shall interface with the Letters application. This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.,operational,legal,0.17713512480258942,minilm,expert
+R161,4,The Disputes application shall interface with the Cardmember Posting and Billing System. This will allow the Disputes application to request adjustments to cardmember and merchant's accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.,operational,legal,0.22899667918682098,minilm,expert
+R162,4,The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.,security,security,0.40927010774612427,minilm,expert
+R163,4,Only users with Update access must be able to initiate dispute requests.,security,security,0.3868580460548401,minilm,expert
+R164,4,The Disputes application shall ensure that only authorized users are allowed to logon to the application.,security,security,0.44813382625579834,minilm,expert
+R165,4,All authorized users once authenticated must be able to logon to the Disputes System,security,security,0.39111363887786865,minilm,expert
+R168,4,If a user account is revoked it can only be re-instantiated by the System Administrator.,security,security,0.17851302027702332,minilm,expert
+R169,4,Only the System Administrator shall be able to reset a revoked user logon account,security,security,0.21812379360198975,minilm,expert
+R170,4,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,security,security,0.2949501574039459,minilm,expert
+R172,4,The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.,legal,legal,0.4314643144607544,minilm,expert
+R173,4,All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.,legal,legal,0.43860599398612976,minilm,expert
+R174,4,The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.,legal,legal,0.43242549896240234,minilm,expert
+R175,4,All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.,legal,legal,0.4884078800678253,minilm,expert
+R176,4,The Disputes application must maintain a detailed history of every action that a user takes on a dispute case. This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.,legal,legal,0.21494489908218384,minilm,expert
+R177,4,All actions that modify an existing dispute case must be recorded in the case history.,legal,legal,0.2656928300857544,minilm,expert
+R178,4,The Disputes System must be accessible by both internal and external users.,availability,security,0.35608649253845215,minilm,expert
+R179,4,The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.,security,security,0.28332194685935974,minilm,expert
+R180,4,The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.,performance,availability,0.2600436806678772,minilm,expert
+R181,4,The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.,security,legal,0.36945825815200806,minilm,expert
+R182,4,The Disputes System shall provide view access capability for authorized users of the application.,security,security,0.4297410249710083,minilm,expert
+R183,4,The Disputes System shall provide update access capability for authorized users of the application.,security,security,0.44569045305252075,minilm,expert
+R188,4,The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.,security,security,0.33850735425949097,minilm,expert
+R192,4,The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.,legal,legal,0.2013799548149109,minilm,expert
+R193,4,The Disputes System shall accurately provide a list of possible reason codes for a given transaction. The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to according to the business rules defined for the Disputes System.,legal,legal,0.38906922936439514,minilm,expert
+R196,4,A list of all disputes cases that meet the entered search criteria must be provided to the user. The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list. For example all open cases will be yellow and all closed cases will be gray.,look-and-feel,legal,0.30478188395500183,minilm,expert
+R201,4,All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.,legal,legal,0.24029678106307983,minilm,expert
+R205,5,The product shall interface with the Choice Parts System. This provides the feed of recycled parts data.,operational,operational,0.24380537867546082,minilm,expert
+R207,5,The product shall adhere to the corporate Architecture guidelines,operational,legal,0.30873531103134155,minilm,expert
+R208,5,The product shall comply with corporate User Interface Guidelines,look-and-feel,look-and-feel,0.38314270973205566,minilm,expert
+R209,5,The product shall comply with corporate color scheme,look-and-feel,look-and-feel,0.30754590034484863,minilm,expert
+R210,5,The appearance of the product shall appear professional,look-and-feel,look-and-feel,0.44089555740356445,minilm,expert
+R211,5,The product shall be easy to use by Adjusters and Collision Estimators. 95% of Adjusters and Collision Estimators shall find the product easy to use.,usability,usability,0.2521829903125763,minilm,expert
+R212,5,The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.,usability,performance,0.36746490001678467,minilm,expert
+R213,5,Users shall feel satisfied using the product. 85% of all users will be satisfied with the product.,usability,look-and-feel,0.18771791458129883,minilm,expert
+R214,5,The product shall be easy to learn by Adjusters and Collision Estimators. The product shall be learned with two days onsite training,usability,usability,0.30167078971862793,minilm,expert
+R215,5,The user shall easily locate instructions while using the product. User help can be found within 90% of the system.,look-and-feel,usability,0.37112200260162354,minilm,expert
+R216,5,The search for recycled parts shall take no longer than 15 seconds. The search results shall be returned in under 15 seconds.,performance,availability,0.2904819846153259,minilm,expert
+R217,5,The search for the preferred repair facility shall take no longer than 8 seconds. The preferred repair facility is returned within 8 seconds,performance,availability,0.4183535575866699,minilm,expert
+R218,5,The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.,performance,availability,0.21645554900169373,minilm,expert
+R219,5,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,performance,availability,0.37055015563964844,minilm,expert
+R220,5,The product shall adhere to the corporate online availability schedule. The application is brought down only within 98% of the scheduled outages per the availability schedule.,availability,performance,0.3477581739425659,minilm,expert
+R221,5,The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.,availability,availability,0.4016200304031372,minilm,expert
+R222,5,The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.,scalability,scalability,0.3224349617958069,minilm,expert
+R223,5,The average number of recycled parts records per day shall be 50 000.,scalability,performance,0.14924640953540802,minilm,expert
+R224,5,The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.,scalability,scalability,0.31297391653060913,minilm,expert
+R225,5,For estimators the product shall be able to be operated in a repair facility during dirty and noisy conditions.,operational,operational,0.3484925329685211,minilm,expert
+R226,5,The product shall interface with the ChoiceParts system once per day at approximately 1:00 AM.,operational,performance,0.34017932415008545,minilm,expert
+R227,5,The maintenance of the product will fall within the established corporate maintenance windows.,maintainability,maintainability,0.46098077297210693,minilm,expert
+R228,5,The product shall be supported using the corporate support center.,operational,scalability,0.2582911550998688,minilm,expert
+R229,5,Product installations and upgrades shall be handled by the middleware technology team within established launch time frames.,maintainability,maintainability,0.33658239245414734,minilm,expert
+R230,5,Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.,security,legal,0.2276793271303177,minilm,expert
+R231,5,Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,security,maintainability,0.2836918234825134,minilm,expert
+R232,5,Only collision estimators shall search for recycled parts. Users without the collision estimator role shall not have access to the search for recycled parts.,security,security,0.18946382403373718,minilm,expert
+R233,5,Only valid data shall be entered into the system. No invalid data shall be entered into the system.,security,security,0.39662206172943115,minilm,expert
+R234,5,One insurance company shall not be able to view another insurance companys claim data.,security,security,0.3691745698451996,minilm,expert
+R235,5,The product shall free of computer viruses.,security,security,0.2765732407569885,minilm,expert
+R236,5,The system shall prevent malicious attacks including denial of service.,security,security,0.4068019986152649,minilm,expert
+R237,5,The product must comply with Sarbanes-Oxley.,legal,security,0.3419208824634552,minilm,expert
+R238,5,The product shall comply with the estimatics laws relating to recycled parts usage.,legal,legal,0.2632960081100464,minilm,expert
+R239,5,The product shall comply with insurance regulations regarding claims processing.,legal,legal,0.38512706756591797,minilm,expert
+R276,6,The product must work with most database management systems (DBMS) on the market whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.,operational,operational,0.27293524146080017,minilm,expert
+R278,6,The product will require collaboration with a database management system (DBMS). The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.,operational,scalability,0.31546854972839355,minilm,expert
+R279,6,The product must make use of web/application server technology. Open source examples include Apache web server Tomcat and the JBoss application server.,operational,scalability,0.29389452934265137,minilm,expert
+R280,6,A database management system such as Oracle DB2 MySql or HSQL will need to be integrated with the product.,operational,scalability,0.2963356375694275,minilm,expert
+R281,6,The product's Look and Feel shall be able to incorporate aspects of the customer's organization such as logo branding and identity,look-and-feel,look-and-feel,0.43659305572509766,minilm,expert
+R282,6,The product shall have a conservative and professional appearance.,look-and-feel,look-and-feel,0.32573938369750977,minilm,expert
+R283,6,The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.,usability,performance,0.3213281035423279,minilm,expert
+R284,6,The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.,usability,usability,0.2110510766506195,minilm,expert
+R285,6,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,performance,performance,0.23883825540542603,minilm,expert
+R286,6,The product shall allow the user to select a chosen language from one of the target market countries.,usability,security,0.11977589875459671,minilm,expert
+R287,6,The product shall allow for customization of start page and views preferences.,usability,look-and-feel,0.27817362546920776,minilm,expert
+R288,6,An employee will be able to successfully use the product within a few minutes. After informally navigating the product for less than 15 minutes users shall be able to successfully setup meetings and reserve conference rooms.,usability,availability,0.32619914412498474,minilm,expert
+R289,6,The product shall use a standard navigation menu familiar to most web users.,usability,usability,0.18734845519065857,minilm,expert
+R290,6,The product shall allow for intuitive searching of available conference rooms.,usability,usability,0.22096018493175507,minilm,expert
+R291,6,The product shall conform to the Americans with Disabilities Act.,legal,security,0.32999974489212036,minilm,expert
+R292,6,The response shall be fast enough to avoid interrupting the user's flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.,performance,availability,0.3754277229309082,minilm,expert
+R293,6,Aside from server failure the software product shall achieve 99.99% up time.,availability,availability,0.3465093672275543,minilm,expert
+R294,6,The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.,maintainability,operational,0.24044102430343628,minilm,expert
+R295,6,The product shall be capable of handling up to 1 000 concurrent requests. This number will increase to 2 000 by Release 2. The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.,scalability,availability,0.35483360290527344,minilm,expert
+R296,6,The product shall be able to process 10 000 transactions per hour within two years of its launch. This number will increase to 20 000 by Release 2.,scalability,performance,0.31171220541000366,minilm,expert
+R297,6,The product shall be expected to operate for at least 5 years for each customer installation.,operational,performance,0.2924165725708008,minilm,expert
+R298,6,The product shall be used in office environments.,operational,operational,0.40722203254699707,minilm,expert
+R299,6,The product must be able to interface with any HTML browser. The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).,look-and-feel,scalability,0.24226656556129456,minilm,expert
+R300,6,The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.,availability,scalability,0.2995983958244324,minilm,expert
+R301,6,The product must be able to interface with various email servers. The product shall be able to send email.,operational,scalability,0.2667708396911621,minilm,expert
+R302,6,The product shall be available for distribution via the Internet as a binary or ZIP file.,operational,legal,0.16035690903663635,minilm,expert
+R303,6,The product shall be available for distribution as a packaged CD.,operational,scalability,0.14077532291412354,minilm,expert
+R304,6,The product will be available for licensing as a one-server two-five servers or five-or-more servers license.,operational,scalability,0.21921762824058533,minilm,expert
+R305,6,A new user must be able to be added to the system within 10 minutes. 90% of new users are able to log into the system within 10 minutes.,performance,availability,0.21681684255599976,minilm,expert
+R306,6,The product must be designed using Design Patterns and coding best practices. 90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.,maintainability,maintainability,0.3879213035106659,minilm,expert
+R307,6,The product must be highly configurable for use with various database management systems for the end users. 80% of end users are able to integrate new database management systems with the product without changing the product's software code.,maintainability,scalability,0.31949493288993835,minilm,expert
+R308,6,Maintenance releases will be offered to customers once a year. The releases shall take no longer than 5 minutes for 80% of the customer base to install.,maintainability,maintainability,0.33138471841812134,minilm,expert
+R309,6,Every registered user will have access to the product's support site via the Internet. 70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,look-and-feel,security,0.25684934854507446,minilm,expert
+R310,6,The customer shall be able to easily integrate new building maps with the product throughout the product's lifecycle. Integration of new maps with the product shall be possible with little to no support from product support staff.,maintainability,scalability,0.3087863028049469,minilm,expert
+R311,6,The product shall be translated into foreign languages other than the target market countries' languages in future releases. For each emerging target market it shall take no more than 5 days to configure the product for that market's language.,maintainability,availability,0.18900910019874573,minilm,expert
+R312,6,The product is expected to integrate with multiple database management systems. The product will operate with Oracle SQL Server DB2 MySQL HSQL and MS Access.,operational,scalability,0.25764524936676025,minilm,expert
+R313,6,The product shall be able to be installed in any operating environment within 2 days.,operational,availability,0.29185763001441956,minilm,expert
+R314,6,The product shall ensure that only company employees or external users with company-approved user IDs may have product access. 100% of all logons shall be by either company employees or external users with company-approved user IDs.,security,security,0.48574721813201904,minilm,expert
+R315,6,Only managers are able to perform search queries for reservations by user. 100% of all search queries for reservations by user shall be from logons of only management logons.,security,security,0.22440111637115479,minilm,expert
+R316,6,The product shall ensure that the database's data corresponds to the data entered by the user. Each conference room reservation in the system will contain the same information as was entered by the user.,security,security,0.2248745560646057,minilm,expert
+R317,6,The product shall prevent the input of malicious data. The product and/or adjacent hardware/software systems' data shall remain 100% uncorrupted each time malicious data is input into the product.,security,security,0.37856191396713257,minilm,expert
+R318,6,The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data. The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.,availability,security,0.30037373304367065,minilm,expert
+R319,6,The product shall have the ability to receive automatic software updates as new threats emerge. 100% of customers will be able to receive automatic software updates transmitted to the installed product.,maintainability,maintainability,0.28317803144454956,minilm,expert
+R320,6,The language of the product shall accommodate all of the target market countries. 90% of survey respondents from each target market country will find that the language of the product is acceptable.,scalability,scalability,0.18515288829803467,minilm,expert
+R321,6,The product shall be able to display calendar dates and times according to the user's locale. 90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,usability,performance,0.16919559240341187,minilm,expert
+R322,6,The product must be developed with the J2SE/J2EE programming language libraries,operational,scalability,0.2739875912666321,minilm,expert
+R347,6,The product shall have a customizable Look and Feel.,look-and-feel,look-and-feel,0.5526999831199646,minilm,expert
+R348,6,The product shall have an intuitive user interface.,usability,look-and-feel,0.5081090927124023,minilm,expert
+R350,7,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,performance,availability,0.31250035762786865,minilm,expert
+R351,7,The System shall allow for a minimum of 6 users to work at the same time.,scalability,operational,0.31796881556510925,minilm,expert
+R352,7,The System shall utilize currently owned computer equipment.,operational,operational,0.338489830493927,minilm,expert
+R354,7,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.,security,security,0.5289077758789062,minilm,expert
+R355,7,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.,security,security,0.4373677372932434,minilm,expert
+R356,7,The System shall meet all applicable accounting standards. The final version of the System must successfully pass independent audit performed by a certified auditor.,legal,legal,0.26546749472618103,minilm,expert
+R357,7,The System shall not require additional third party licenses resulting in royalty fees.,operational,legal,0.24827224016189575,minilm,expert
+R368,7,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.,look-and-feel,maintainability,0.1708688735961914,minilm,expert
+R370,7,The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.,look-and-feel,look-and-feel,0.3079836070537567,minilm,expert
+R373,8,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,performance,availability,0.31431567668914795,minilm,expert
+R374,8,Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.,performance,availability,0.27319955825805664,minilm,expert
+R375,8,"System shall let customers register on the website as a ""pay as you go"" user in under 5 minutes.",performance,availability,0.2523069381713867,minilm,expert
+R376,8,"System shall let customers register on the website as a ""unlimited movie subscriber"" user in under 10 minutes.",performance,availability,0.25108763575553894,minilm,expert
+R377,8,System shall let existing customers log into the website with their email address and password in under 5 seconds.,performance,security,0.22999733686447144,minilm,expert
+R378,8,System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.,performance,availability,0.2524963915348053,minilm,expert
+R379,8,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,performance,availability,0.2996845841407776,minilm,expert
+R380,8,System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.,performance,availability,0.18860064446926117,minilm,expert
+R381,8,System shall let the administrator add/remove categories on the website in under 5 minutes.,performance,availability,0.24272596836090088,minilm,expert
+R382,8,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,performance,performance,0.2723972797393799,minilm,expert
+R383,8,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,performance,availability,0.22635771334171295,minilm,expert
+R384,8,The website shall be attractive to all audiences. The website shall appear to be fun and the colors should be bright and vibrant.,look-and-feel,look-and-feel,0.33882349729537964,minilm,expert
+R385,8,The website should have an African feel but should not alienate non-Africans. The website should use animation on pages which are describing the services to grab the users attention and encourage them to sign up.,look-and-feel,look-and-feel,0.2269345372915268,minilm,expert
+R386,8,The website design should be modern clean and concise.,look-and-feel,look-and-feel,0.349619060754776,minilm,expert
+R387,8,The product should be able to be used by 90% of novice users on the Internet.,usability,usability,0.30521586537361145,minilm,expert
+R388,8,Users should only have to navigate through a maximum of 4 pages to create an account with the website.,look-and-feel,security,0.13129033148288727,minilm,expert
+R389,8,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,look-and-feel,availability,0.15689241886138916,minilm,expert
+R390,8,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,usability,performance,0.1736009120941162,minilm,expert
+R391,8,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,usability,performance,0.16303154826164246,minilm,expert
+R392,8,The product shall retain the customer's buying preferences and information.,usability,look-and-feel,0.22393855452537537,minilm,expert
+R393,8,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,performance,availability,0.2583026885986328,minilm,expert
+R394,8,The product shall use symbols and words that are naturally understandable by users familiar with websites,look-and-feel,usability,0.4514126181602478,minilm,expert
+R395,8,The website will use standard Internet conventions when interacting with the user.,look-and-feel,legal,0.23749154806137085,minilm,expert
+R397,8,When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.,performance,availability,0.2632092535495758,minilm,expert
+R398,8,When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user's connection.),performance,availability,0.22379270195960999,minilm,expert
+R399,8,While streaming a movie buffering should only occur if there is latency in the user's connection.,performance,availability,0.22638928890228271,minilm,expert
+R400,8,All credit card information will be secured on the server and only accessible by authorized Izogn administrators. Information will be encrypted in the database.,security,security,0.41621607542037964,minilm,expert
+R401,8,The website shall be available for use 24 hours per day 365 days per year.,availability,performance,0.28146496415138245,minilm,expert
+R402,8,The website shall achieve 99.5% up time.,availability,availability,0.28459060192108154,minilm,expert
+R403,8,All movies shall be streamed on demand at any time of the day.,availability,availability,0.22104120254516602,minilm,expert
+R404,8,The website shall continue to operate if the streaming server goes down.,availability,maintainability,0.17769530415534973,minilm,expert
+R405,8,The website shall continue to operate if the payment gateway goes down.,availability,availability,0.18494416773319244,minilm,expert
+R406,8,The streaming server will support 50 simultaneous streaming connections.,scalability,scalability,0.16408798098564148,minilm,expert
+R407,8,The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.,maintainability,scalability,0.19576546549797058,minilm,expert
+R408,8,The server will support a maximum of 1 000 simultaneous users.,scalability,scalability,0.25198644399642944,minilm,expert
+R409,8,The website shall be capable of supporting 100 000 customers.,scalability,scalability,0.2526800036430359,minilm,expert
+R410,8,The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years.,maintainability,maintainability,0.3103357255458832,minilm,expert
+R411,8,All aspects of the website shall be accessed by a web browser over the Internet.,operational,security,0.22630158066749573,minilm,expert
+R412,8,The same hardware supporting the current website will be used to support the new system.,operational,scalability,0.22262611985206604,minilm,expert
+R413,8,We must be able to interface with the following browsers: IE 5.X 6.0 Netscape 6.x 7.x 8.x and Firefox 1.0.,operational,scalability,0.1922140270471573,minilm,expert
+R414,8,Website must interface with the CyberSource API to process credit card transactions.,operational,security,0.18456172943115234,minilm,expert
+R415,8,Website must be fully operational with MSN TV2.,operational,availability,0.20128726959228516,minilm,expert
+R416,8,Movies shall be encoded and streamed via Windows Media Player 9.0.,operational,legal,0.13044698536396027,minilm,expert
+R417,8,Movies shall be encoded for 56k and 256k streams.,operational,legal,0.2027353197336197,minilm,expert
+R418,8,Promotional updates to the website should take a day to update.,maintainability,availability,0.2658054828643799,minilm,expert
+R419,8,Izogn Administrator must be able to update the category listings on the website within 2 minutes.,look-and-feel,availability,0.2886800169944763,minilm,expert
+R420,8,Izogn Administrator must be able to add new products to the website within 2 minutes.,look-and-feel,availability,0.3170003294944763,minilm,expert
+R421,8,The system will provide a 24 hour 800 toll free number for support to its customers.,availability,availability,0.22495995461940765,minilm,expert
+R423,8,Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators.,availability,operational,0.202783465385437,minilm,expert
+R424,8,The product shall be able to be installed in the specified environment within 1 working day.,operational,availability,0.31206560134887695,minilm,expert
+R425,8,Only registered customers can purchase streaming movies.,security,legal,0.1782659888267517,minilm,expert
+R426,8,A customer can only stream a movie if they purchased it and are within the 2 day viewing period.,legal,legal,0.2467210292816162,minilm,expert
+R427,8,Only authorized personnel can access customer records in the database.,security,security,0.35226747393608093,minilm,expert
+R428,8,Only administrators can activate a pre-paid card.,security,security,0.288141131401062,minilm,expert
+R429,8,Only authorized personnel can access sales information.,security,security,0.36167699098587036,minilm,expert
+R431,8,The website shall protect itself from intentional abuse and notify the administrator at all occurrences.,maintainability,security,0.43481576442718506,minilm,expert
+R432,8,Data integrity scripts will be run on a weekly basis to verify the integrity of the database.,maintainability,performance,0.3815150856971741,minilm,expert
+R433,8,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.,security,security,0.32153159379959106,minilm,expert
+R435,8,The system shall reveal private information only in compliance with the organization's information policy.,legal,security,0.3301948010921478,minilm,expert
+R436,8,All customer information will be stored on a secure database accessible only to authorized personnel.,security,security,0.4152413606643677,minilm,expert
+R437,8,All credit card information will be encrypted in the database.,security,security,0.2548900544643402,minilm,expert
+R438,8,The streaming server will have anti-virus software to prevent infection of malicious viruses.,security,security,0.2404128611087799,minilm,expert
+R439,8,The website should cater to all tribes in Nigeria.,look-and-feel,look-and-feel,0.10968190431594849,minilm,expert
+R440,8,The website shall not be offensive to religious or ethnic groups.,look-and-feel,security,0.20934543013572693,minilm,expert
+R441,8,The website should appeal to all Africans not only Nigerians.,look-and-feel,legal,0.12886442244052887,minilm,expert
+R442,8,The website should use Flash to provide animation on the home page.,look-and-feel,availability,0.10724940896034241,minilm,expert
+R443,8,IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.,legal,legal,0.23276080191135406,minilm,expert
+R444,8,The website will comply with W3C standards.,legal,security,0.27506548166275024,minilm,expert
+R445,8,The PHP code will comply with PEAR standards.,security,security,0.2621297836303711,minilm,expert
+R461,8,All streaming movie sales will be logged in the database and accessible by the administrator.,availability,security,0.16304126381874084,minilm,expert
+R463,8,Daily usage statistics should be logged and accessible by the administrator.,maintainability,performance,0.19797344505786896,minilm,expert
+R464,8,The owner shall have free access to all of the streaming movies.,availability,security,0.26452383399009705,minilm,expert
+R465,9,Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.,availability,performance,0.24313077330589294,minilm,expert
+R466,9,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,availability,performance,0.30841881036758423,minilm,expert
+R468,9,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,performance,performance,0.3513345718383789,minilm,expert
+R469,9,The lead washing process will operate within the established physical web service structure.,operational,operational,0.309795081615448,minilm,expert
+R470,9,The washing process must use a non binding neutral data format such as xml when receiving and processing lead data.,operational,operational,0.20816589891910553,minilm,expert
+R471,9,Defect reports will be available to technical units on a 24x7 basis.,availability,maintainability,0.1747773438692093,minilm,expert
+R472,9,Washing parameters will be updated during scheduled maintenance hours.,maintainability,maintainability,0.4063040614128113,minilm,expert
+R489,10,The product shall simulate the look of ships at sea.,look-and-feel,look-and-feel,0.22314327955245972,minilm,expert
+R490,10,The product shall display the grids within a circle as a view from a periscope.,look-and-feel,scalability,0.1596004068851471,minilm,expert
+R491,10,The product shall display each type of ship in a grid using an image of the specific type of ship.,look-and-feel,look-and-feel,0.18222850561141968,minilm,expert
+R492,10,When the offensive player takes a shot the product shall simulate the sound of a ship at sea.,look-and-feel,legal,0.20928514003753662,minilm,expert
+R493,10,When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.,look-and-feel,availability,0.1549544334411621,minilm,expert
+R494,10,When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.,look-and-feel,legal,0.16643181443214417,minilm,expert
+R495,10,When a ship is sunk the product shall simulate the sound of a sinking ship.,look-and-feel,legal,0.19261938333511353,minilm,expert
+R496,10,The product shall be available 24 hours per day seven days per week.,availability,performance,0.32684463262557983,minilm,expert
+R497,10,The product shall able to handle a large number of games simultaneously.,performance,scalability,0.29654639959335327,minilm,expert
+R498,10,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,performance,availability,0.34377211332321167,minilm,expert
+R499,10,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,security,security,0.4622681140899658,minilm,expert
+R500,10,The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.,usability,usability,0.33115535974502563,minilm,expert
+R501,10,The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.,usability,security,0.24023433029651642,minilm,expert
+R502,10,The product shall provide players no access to information that might reveal the identity of another player,security,security,0.3727136254310608,minilm,expert
+R541,11,The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.,performance,availability,0.4219222664833069,minilm,expert
+R542,11,The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.,usability,usability,0.31389880180358887,minilm,expert
+R543,11,The system shall be responsive. At the DePaul TeleServices Center when a supervisor uses the system to view a callers schedule the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,performance,availability,0.4123684763908386,minilm,expert
+R544,11,On a 56k connection the system response time for all operations must be no more than 6 seconds 90% of the time.,availability,availability,0.3506423830986023,minilm,expert
+R545,11,On a 112k connection or faster the system response time for all operations must be no more than 3 seconds 90% of the time.,availability,availability,0.37152335047721863,minilm,expert
+R546,11,The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.,availability,availability,0.4088752865791321,minilm,expert
+R547,11,The system must be available for use between 7:00AM and 11:59PM all days of the year.,availability,availability,0.32613444328308105,minilm,expert
+R549,11,The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.,security,security,0.36938273906707764,minilm,expert
+R550,11,The product shall ensure that only supervisors can enter a caller's schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,security,security,0.3913823366165161,minilm,expert
+R551,11,The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.,security,security,0.3861340582370758,minilm,expert
+R552,11,The interface shall have a simple look. In the interface and usability survey 90% of beta testers must report that the interface is adequately simple.,look-and-feel,look-and-feel,0.4317553639411926,minilm,expert
+R553,11,The interface shall be appealing to callers and supervisors. In the interface and usability survey 80% of beta testers must report that the interface is appealing.,look-and-feel,look-and-feel,0.4150236248970032,minilm,expert
+R554,12,The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.,maintainability,maintainability,0.3065218925476074,minilm,expert
+R555,12,The product shall comply with City of Chicago Application Development Guide Framework.Application Development Framework will provide structured Graphical User Interface.,legal,scalability,0.23913495242595673,minilm,expert
+R556,12,The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,usability,performance,0.38058942556381226,minilm,expert
+R558,12,The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),usability,operational,0.2976052463054657,minilm,expert
+R559,12,The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,performance,availability,0.3552677035331726,minilm,expert
+R560,12,The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.,performance,scalability,0.35024285316467285,minilm,expert
+R561,12,The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds,performance,availability,0.3502136766910553,minilm,expert
+R562,12,The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.,performance,availability,0.3640868663787842,minilm,expert
+R564,12,The product shall be available 99% of the time. Rationale: To avoid service interruption during busiest customer service response periods. The product shall be available 99.99% of the time for regular business days.,availability,availability,0.3061731457710266,minilm,expert
+R566,12,The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.,availability,availability,0.37088069319725037,minilm,expert
+R567,12,The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.,performance,scalability,0.2959938049316406,minilm,expert
+R568,12,The product shall be platform independent.The product shall enable access to any type of development environment and platform.,operational,scalability,0.4322008788585663,minilm,expert
+R569,12,The product shall interface CSR and Datastream.The product shall exchange messages between CSR and EAM on a real time basis without any direct interfaces between two systems.,operational,operational,0.2394714504480362,minilm,expert
+R570,12,: The product shall continue to operate during upgrade change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.,availability,maintainability,0.4736383259296417,minilm,expert
+R571,12,The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.,maintainability,maintainability,0.5139095783233643,minilm,expert
+R572,12,The product shall operate with every platform.The product shall accommodate any new technology without any change in its architecture.,maintainability,scalability,0.3584190309047699,minilm,expert
+R573,12,The product shall have security.The product shall provide authentication and authorization.,security,security,0.7401319742202759,minilm,expert
+R574,12,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,security,security,0.5524548292160034,minilm,expert
+R575,12,The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,security,security,0.296808123588562,minilm,expert
+R576,13,The system shall use IBM and CCR branding standards. The interface must have one IBM logo and one CCR logo.,look-and-feel,look-and-feel,0.31751763820648193,minilm,expert
+R577,13,The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.,look-and-feel,scalability,0.19760972261428833,minilm,expert
+R578,13,The system interface will use CCR nomenclature. The system must use the same nomenclature used in the existing WCS system and reports,look-and-feel,legal,0.1758532077074051,minilm,expert
+R579,13,The interface must summarize the data in a fashion that's appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface,look-and-feel,look-and-feel,0.14521567523479462,minilm,expert
+R580,13,The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,look-and-feel,operational,0.16609856486320496,minilm,expert
+R581,13,The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.,look-and-feel,look-and-feel,0.36913251876831055,minilm,expert
+R582,13,Reports must be easy to generate. Reports must be generated within one button click and exported within one button click (after selecting the report),operational,usability,0.13878439366817474,minilm,expert
+R583,13,A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.,usability,performance,0.2845553159713745,minilm,expert
+R585,13,The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.,legal,operational,0.25281184911727905,minilm,expert
+R586,13,The WCS system shall be available at all times as long as IBM's internal intranet W3 is accessible. The WCS system will be available 95% of the time IBM's internal intranet W3 is available.,availability,operational,0.20086926221847534,minilm,expert
+R588,13,The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.,scalability,security,0.19560538232326508,minilm,expert
+R589,13,The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.,operational,operational,0.22022965550422668,minilm,expert
+R590,13,The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats). Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.,look-and-feel,operational,0.13284505903720856,minilm,expert
+R592,13,All changes updates and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation,maintainability,maintainability,0.28047287464141846,minilm,expert
+R593,13,The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.,security,security,0.3788881301879883,minilm,expert
+R594,13,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user's computer.,security,security,0.2651421129703522,minilm,expert
+R595,14,Each team owner will need to use a username and password in order to be authenticated to reach the team owner's page,security,security,0.327750027179718,minilm,expert
+R596,14,The Commissioner will be the only authorized user per league to adjust league settings.,security,security,0.32572317123413086,minilm,expert
+R597,14,Each page shall contain a navigation menu which shows the index into which the current page is contained.,look-and-feel,look-and-feel,0.0948524922132492,minilm,expert
+R598,14,Each page shall contain a similar format with action items in one location and navigation buttons in a different location.,look-and-feel,look-and-feel,0.1815112978219986,minilm,expert
+R600,14,A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,look-and-feel,availability,0.1555173695087433,minilm,expert
+R601,14,"Users shall be able to reach the 'add' , drop',  and 'trade player' pages with one click from the team owner's page.",look-and-feel,legal,0.09683050960302353,minilm,expert
+R602,14,Users shall be able to view at least 25 NFL player statistics and points on each page.,performance,usability,0.07903425395488739,minilm,expert
+R604,14,The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,availability,availability,0.3481582701206207,minilm,expert
+R605,14,The application shall have a downtime of at most 10 minutes per year.,availability,performance,0.29096370935440063,minilm,expert
+R606,14,The application shall run on a web application server.,operational,operational,0.2879502773284912,minilm,expert
+R607,14,A primary database will be used to store cached data for active users.,maintainability,maintainability,0.21208670735359192,minilm,expert
+R608,14,A secondary database will be used to store historical statistics and data.,maintainability,maintainability,0.19235089421272278,minilm,expert
+R609,14,Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.,maintainability,availability,0.25576159358024597,minilm,expert
+R610,14,New System version releases shall be released at the beginning of each NFL season.,maintainability,maintainability,0.16119416058063507,minilm,expert
+R611,15,The RFS system should be available 24/7 especially during the budgeting period. The RFS system shall be available 90% of the time all year and 98% during the budgeting period. 2% of the time the system will become available within 1 hour of the time that the situation is reported.,availability,availability,0.3322608768939972,minilm,expert
+R612,15,98% of the user workstations shall meet the minimum hardware requirements prior to implementation. Minimum Hard Disk Space: 400MB.,operational,scalability,0.24727779626846313,minilm,expert
+R613,15,98% of the user workstations shall meet the minimum software requirements prior to implementation: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Microsoft Internet Explorer Web Controls,operational,scalability,0.2973584532737732,minilm,expert
+R614,15,The RFS system should be able to easily interface with the BDW environment in order to load the data. Seven data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process every year. The data will be as of October month-end. Test files (7) shall be loaded up to 5 times throughout the year from the BDW.,operational,performance,0.2154443860054016,minilm,expert
+R615,15,Changes to revenue and expense formulae must be applied to the RFS system every year prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt after which 2 weeks will be allotted to testing of the budget calculations to be conducted jointly by the project development team and PCG Finance.,legal,performance,0.21970531344413757,minilm,expert
+R616,15,New branches/complexes/districts/regions and revenue/expense accounts added to the BDW must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end will be loaded into the RFS system prior to the budget start process.,availability,maintainability,0.1562604010105133,minilm,expert
+R617,15,Only authorized user shall access the RFS system. ONLY users that exist in the UAS system with the RFS system assigned to their role(s) shall access the RFS system and use it.,security,security,0.4339676797389984,minilm,expert
+R618,15,User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role.,security,security,0.44834163784980774,minilm,expert
+R619,15,The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group prior to implementation. The remaining 5% will be corrected and approved within one month of product release.,legal,look-and-feel,0.2676355242729187,minilm,expert
+R620,15,The intranet pages should display appropriately in all resolutions from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.,look-and-feel,scalability,0.17757081985473633,minilm,expert
+R621,15,The users should be able to easily use the system to successfully complete their budgets within the stipulated time for completion. With a week of training prior to product implementation 98% of the users shall complete their budgets within the stipulated time.,usability,performance,0.34251806139945984,minilm,expert
+R622,15,The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time the response time should not be more than 10 seconds.not be more than 10 seconds.,availability,availability,0.35160335898399353,minilm,expert

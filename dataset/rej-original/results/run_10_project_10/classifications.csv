@@ -1,0 +1,53 @@
+project,text,actual_types,predicted_types,preprocessed_tokens
+10,The product shall simulate the look of ships at sea.,look-and-feel,look-and-feel,simul look ship sea
+10,The product shall display the grids within a circle as a view from a periscope.,look-and-feel,functional,display grid within circl view periscop
+10,The product shall display each type of ship in a grid using an image of the specific type of ship.,look-and-feel,look-and-feel|usability,display type ship grid use imag specif type ship
+10,When the offensive player takes a shot the product shall simulate the sound of a ship at sea.,look-and-feel,functional,offens player take shot simul sound ship sea
+10,When a shot is marked as a miss the product shall simulate the sound of a shot missing its target.,look-and-feel,functional,shot mark miss simul sound shot miss target
+10,When a shot is marked as a hit the product shall simulate the sound of a shot hitting its target.,look-and-feel,functional,shot mark hit simul sound shot hit target
+10,When a ship is sunk the product shall simulate the sound of a sinking ship.,look-and-feel,functional,ship sunk simul sound sink ship
+10,The product shall be available 24 hours per day seven days per week.,availability,availability,avail hour per day seven day per week
+10,The product shall able to handle a large number of games simultaneously.,performance|scalability,scalability|usability,abl handl larg number game simultan
+10,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,performance,availability|performance,respons time fast enough maintain flow game respons time second respons remain respons
+10,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,security,security,protect ident player provid player access inform might reveal ident anoth player
+10,The product shall be intuitive and self-explanatory. Nine out ten users shall be able to successfully complete a game with no training.,usability,scalability|security|usability,intuit self explanatori nine ten user abl success complet game train
+10,The product shall be available to players who understand English Spanish and French. The product shall allow the user to select the language upon accessing the product.,usability,availability|look-and-feel|security|usability,avail player understand english spanish french allow user select languag upon access
+10,The product shall provide players no access to information that might reveal the identity of another player,security,security,provid player access inform might reveal ident anoth player
+10,The product shall maintain a list of players.,functional,functional,maintain list player
+10,The product shall allow a user to identify himself or herself as a player.,functional,security|usability,allow user identifi player
+10,Once a game has been initiated the product shall make the players assigned to the game unavailable for selection from the list of players.,functional,functional,game initi make player assign game unavail select list player
+10,The product shall allow a user to remove himself or herself from the list of players at any time.,functional,availability|performance|scalability|security|usability,allow user remov list player time
+10,The product shall make inactive players unavailable for selection from the list of players.,functional,functional,make inact player unavail select list player
+10,The product shall remove players who have been inactive for 24 hours from the list of players.,functional,availability,remov player inact hour list player
+10,The product shall allow a player to initiate a game by selecting another available player from the list of players.,functional,availability,allow player initi game select anoth avail player list player
+10,Once a game is initiated the product shall display a defensive grid to each player,functional,functional,game initi display defens grid player
+10,Once a game is initiated the product shall display an offensive grid to each player.,functional,functional,game initi display offens grid player
+10,The product shall prevent a player from viewing the offensive or defensive grids of the other player.,functional,functional,prevent player view offens defens grid player
+10,Once a game is initiated the product shall allow each player to position their 5 ships on their respective defensive grids.,functional,functional,game initi allow player posit ship respect defens grid
+10,The product shall allow a player to position ships horizontally on their grid.,functional,functional,allow player posit ship horizont grid
+10,The product shall allow the player to position ships vertically on their grid.,functional,functional,allow player posit ship vertic grid
+10,The product shall allow the player to position ships diagonally on their grid,functional,functional,allow player posit ship diagon grid
+10,The product shall prevent the player from overlapping ships on their grid.,functional,functional,prevent player overlap ship grid
+10,When both players have positioned their 5 ships on their defensive grids the product shall define the status of each player for the first turn.,functional,functional,player posit ship defens grid defin statu player first turn
+10,For each turn the product shall identify one player as offensive status and one player as defensive status.,functional,functional,turn identifi one player offens statu one player defens statu
+10,The product shall maintain the status of each player for a turn either offensive or defensive.,functional,functional,maintain statu player turn either offens defens
+10,At the start of each turn the product shall notify each player of his or her status.,functional,functional,start turn notifi player statu
+10,For each turn the product shall allow the offensive player to define a shot.,functional,functional,turn allow offens player defin shot
+10,For each shot the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.,functional,functional,shot examin defens grid defens player determin whether shot hit miss
+10,For each shot the product shall notify the players whether the shot was a hit or miss.,functional,functional,shot notifi player whether shot hit miss
+10,For each shot the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.,functional,functional,shot mark shot hit miss defens grid defens player
+10,For each shot the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.,functional,functional,shot mark shot hit miss offens grid offens player
+10,When the hit results in sinking a ship the product shall notify the players that the ship was sunk.,functional,functional,hit result sink ship notifi player ship sunk
+10,When the hit results in sinking a ship the product shall mark the ship as sunk on the defensive grid of the defensive player.,functional,functional,hit result sink ship mark ship sunk defens grid defens player
+10,When the hit results in sinking a ship the product shall indicate the type of ship sunk on the defensive grid of the defensive player.,functional,functional,hit result sink ship indic type ship sunk defens grid defens player
+10,When the hit results in sinking a ship the product shall mark the ship as sunk on the offensive grid of the offensive player.,functional,functional,hit result sink ship mark ship sunk offens grid offens player
+10,If the shot was marked as a hit the product shall allow the offensive player to define a shot.,functional,functional,shot mark hit allow offens player defin shot
+10,If the shot was marked as a miss the product shall change the status of the offensive player to defensive,functional,functional,shot mark miss chang statu offens player defens
+10,If the shot was marked as a miss the product shall change the status of the defensive player to offensive,functional,functional,shot mark miss chang statu defens player offens
+10,The product shall continue to assign turns until the game is ended.,functional,functional,continu assign turn game end
+10,The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player's ships which had not been previously marked as sunk.,functional,functional,end game hit offens player result sink last defens player ship previous mark sunk
+10,The product shall allow a player to end a game at any time during the game.,functional,availability|performance,allow player end game time game
+10,When a game is ended the product shall notify the players that the game is ended.,functional,functional,game end notifi player game end
+10,The notification of the game ending will include the reason the game is ended (i.e. a player has won the game or a player has ended the game).,functional,functional,notif game end includ reason game end e player game player end game
+10,When a game is ended the product shall allow each player to identify himself or herself as an available player in the list of players.,functional,availability,game end allow player identifi avail player list player
+10,When a game is ended the product shall allow each player to remove himself or herself from the list of players.,functional,functional,game end allow player remov list player

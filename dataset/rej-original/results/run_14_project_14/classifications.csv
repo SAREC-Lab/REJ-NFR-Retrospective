@@ -1,0 +1,17 @@
+project,text,actual_types,predicted_types,preprocessed_tokens
+14,Each team owner will need to use a username and password in order to be authenticated to reach the team owner's page,security,look-and-feel|usability,team owner need use usernam password order authent reach team owner page
+14,The Commissioner will be the only authorized user per league to adjust league settings.,security,scalability|security|usability,commission author user per leagu adjust leagu set
+14,Each page shall contain a navigation menu which shows the index into which the current page is contained.,look-and-feel,functional,page contain navig menu show index current page contain
+14,Each page shall contain a similar format with action items in one location and navigation buttons in a different location.,look-and-feel|usability,functional,page contain similar format action item one locat navig button differ locat
+14,The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.,functional,functional,messag board contain recent post messag leagu page messag contain first charact messag
+14,A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,look-and-feel|performance|usability,maintainability|operational|performance|scalability|security|usability,new user abl navig leagu team page within second reach start page
+14,"Users shall be able to reach the 'add' , drop',  and 'trade player' pages with one click from the team owner's page.",look-and-feel|usability,scalability|security|usability,user abl reach add drop trade player page one click team owner page
+14,Users shall be able to view at least 25 NFL player statistics and points on each page.,performance,scalability|security|usability,user abl view least nfl player statist point page
+14,The application shall ask the user to confirm dropping a player or trading a player before performing the action.,functional,scalability|security|usability,applic ask user confirm drop player trade player perform action
+14,The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,availability|performance,operational|performance|scalability|security|usability,applic abl complet everi user transact within one fourth second receiv request network
+14,The application shall have a downtime of at most 10 minutes per year.,availability,performance|scalability,applic downtim minut per year
+14,The application shall run on a web application server.,operational,operational,applic run web applic server
+14,A primary database will be used to store cached data for active users.,maintainability|operational,look-and-feel|security|usability,primari databas use store cach data activ user
+14,A secondary database will be used to store historical statistics and data.,maintainability|operational,look-and-feel|usability,secondari databas use store histor statist data
+14,Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.,maintainability,maintainability,applic updat occur cst wednesday morn middl nfl season
+14,New System version releases shall be released at the beginning of each NFL season.,maintainability,maintainability,new version releas releas begin nfl season

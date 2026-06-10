@@ -1,0 +1,560 @@
+{
+  "availability": [
+    {
+      "term": "avail",
+      "weight": 0.0235694
+    },
+    {
+      "term": "time",
+      "weight": 0.01541003
+    },
+    {
+      "term": "hour",
+      "weight": 0.00845426
+    },
+    {
+      "term": "achiev",
+      "weight": 0.00833333
+    },
+    {
+      "term": "pm",
+      "weight": 0.00670635
+    },
+    {
+      "term": "per",
+      "weight": 0.00446047
+    },
+    {
+      "term": "day",
+      "weight": 0.00320538
+    },
+    {
+      "term": "oper",
+      "weight": 0.00231435
+    },
+    {
+      "term": "year",
+      "weight": 0.0022672
+    },
+    {
+      "term": "continu",
+      "weight": 0.00122768
+    },
+    {
+      "term": "busi",
+      "weight": 0.0012163
+    },
+    {
+      "term": "access",
+      "weight": 0.00105219
+    },
+    {
+      "term": "second",
+      "weight": 0.00090828
+    },
+    {
+      "term": "technic",
+      "weight": 0.00080782
+    },
+    {
+      "term": "respons",
+      "weight": 0.00079814
+    }
+  ],
+  "legal": [
+    {
+      "term": "compli",
+      "weight": 0.01008846
+    },
+    {
+      "term": "regul",
+      "weight": 0.00711218
+    },
+    {
+      "term": "complianc",
+      "weight": 0.00355418
+    },
+    {
+      "term": "conform",
+      "weight": 0.00309984
+    },
+    {
+      "term": "privat",
+      "weight": 0.00276052
+    },
+    {
+      "term": "organ",
+      "weight": 0.00275601
+    },
+    {
+      "term": "sarban",
+      "weight": 0.00161031
+    },
+    {
+      "term": "oxley",
+      "weight": 0.00161031
+    },
+    {
+      "term": "polici",
+      "weight": 0.00138026
+    },
+    {
+      "term": "rule",
+      "weight": 0.00128019
+    },
+    {
+      "term": "requir",
+      "weight": 0.00127839
+    },
+    {
+      "term": "forth",
+      "weight": 0.00125246
+    },
+    {
+      "term": "american",
+      "weight": 0.00120773
+    },
+    {
+      "term": "disabl",
+      "weight": 0.00120773
+    },
+    {
+      "term": "act",
+      "weight": 0.00120773
+    }
+  ],
+  "look-and-feel": [
+    {
+      "term": "appear",
+      "weight": 0.0073989
+    },
+    {
+      "term": "interfac",
+      "weight": 0.00644397
+    },
+    {
+      "term": "color",
+      "weight": 0.0055163
+    },
+    {
+      "term": "look",
+      "weight": 0.005392
+    },
+    {
+      "term": "use",
+      "weight": 0.00421778
+    },
+    {
+      "term": "standard",
+      "weight": 0.00403565
+    },
+    {
+      "term": "user",
+      "weight": 0.00346712
+    },
+    {
+      "term": "profession",
+      "weight": 0.00301378
+    },
+    {
+      "term": "feel",
+      "weight": 0.00254411
+    },
+    {
+      "term": "page",
+      "weight": 0.00231091
+    },
+    {
+      "term": "display",
+      "weight": 0.00216461
+    },
+    {
+      "term": "compli",
+      "weight": 0.00187275
+    },
+    {
+      "term": "navig",
+      "weight": 0.00166385
+    },
+    {
+      "term": "appeal",
+      "weight": 0.00161641
+    },
+    {
+      "term": "understand",
+      "weight": 0.0014488
+    }
+  ],
+  "maintainability": [
+    {
+      "term": "mainten",
+      "weight": 0.01052296
+    },
+    {
+      "term": "updat",
+      "weight": 0.00844329
+    },
+    {
+      "term": "new",
+      "weight": 0.00350813
+    },
+    {
+      "term": "releas",
+      "weight": 0.00307342
+    },
+    {
+      "term": "integr",
+      "weight": 0.00140621
+    },
+    {
+      "term": "databas",
+      "weight": 0.00132918
+    },
+    {
+      "term": "chang",
+      "weight": 0.00107771
+    },
+    {
+      "term": "statist",
+      "weight": 0.00096726
+    },
+    {
+      "term": "everi",
+      "weight": 0.00083507
+    },
+    {
+      "term": "season",
+      "weight": 0.00079365
+    },
+    {
+      "term": "develop",
+      "weight": 0.00075195
+    },
+    {
+      "term": "budget",
+      "weight": 0.00071615
+    },
+    {
+      "term": "technolog",
+      "weight": 0.00063131
+    },
+    {
+      "term": "within",
+      "weight": 0.00057785
+    },
+    {
+      "term": "error",
+      "weight": 0.00056818
+    }
+  ],
+  "operational": [
+    {
+      "term": "interfac",
+      "weight": 0.01439637
+    },
+    {
+      "term": "environ",
+      "weight": 0.00886712
+    },
+    {
+      "term": "oper",
+      "weight": 0.00664149
+    },
+    {
+      "term": "server",
+      "weight": 0.00425826
+    },
+    {
+      "term": "web",
+      "weight": 0.00349202
+    },
+    {
+      "term": "browser",
+      "weight": 0.00283892
+    },
+    {
+      "term": "databas",
+      "weight": 0.00244182
+    },
+    {
+      "term": "window",
+      "weight": 0.00210875
+    },
+    {
+      "term": "use",
+      "weight": 0.0019859
+    },
+    {
+      "term": "within",
+      "weight": 0.00185011
+    },
+    {
+      "term": "abl",
+      "weight": 0.00159158
+    },
+    {
+      "term": "html",
+      "weight": 0.00146199
+    },
+    {
+      "term": "applic",
+      "weight": 0.00142007
+    },
+    {
+      "term": "internet",
+      "weight": 0.00125476
+    },
+    {
+      "term": "minimum",
+      "weight": 0.00116401
+    }
+  ],
+  "performance": [
+    {
+      "term": "second",
+      "weight": 0.05353423
+    },
+    {
+      "term": "time",
+      "weight": 0.01159517
+    },
+    {
+      "term": "respons",
+      "weight": 0.00851938
+    },
+    {
+      "term": "within",
+      "weight": 0.00617226
+    },
+    {
+      "term": "minut",
+      "weight": 0.00571658
+    },
+    {
+      "term": "longer",
+      "weight": 0.00404251
+    },
+    {
+      "term": "abl",
+      "weight": 0.002596
+    },
+    {
+      "term": "user",
+      "weight": 0.00207542
+    },
+    {
+      "term": "fast",
+      "weight": 0.00190081
+    },
+    {
+      "term": "process",
+      "weight": 0.00171979
+    },
+    {
+      "term": "everi",
+      "weight": 0.00166243
+    },
+    {
+      "term": "task",
+      "weight": 0.00150152
+    },
+    {
+      "term": "take",
+      "weight": 0.00145815
+    },
+    {
+      "term": "let",
+      "weight": 0.00112812
+    },
+    {
+      "term": "complet",
+      "weight": 0.00102066
+    }
+  ],
+  "scalability": [
+    {
+      "term": "simultan",
+      "weight": 0.02333711
+    },
+    {
+      "term": "handl",
+      "weight": 0.01315567
+    },
+    {
+      "term": "support",
+      "weight": 0.0093196
+    },
+    {
+      "term": "capabl",
+      "weight": 0.00486529
+    },
+    {
+      "term": "concurr",
+      "weight": 0.00406398
+    },
+    {
+      "term": "year",
+      "weight": 0.00370301
+    },
+    {
+      "term": "abl",
+      "weight": 0.00348811
+    },
+    {
+      "term": "user",
+      "weight": 0.00282875
+    },
+    {
+      "term": "number",
+      "weight": 0.00250419
+    },
+    {
+      "term": "next",
+      "weight": 0.00123686
+    },
+    {
+      "term": "per",
+      "weight": 0.00120465
+    },
+    {
+      "term": "perform",
+      "weight": 0.00095427
+    },
+    {
+      "term": "repres",
+      "weight": 0.00093055
+    },
+    {
+      "term": "launch",
+      "weight": 0.00082672
+    },
+    {
+      "term": "day",
+      "weight": 0.00080562
+    }
+  ],
+  "security": [
+    {
+      "term": "access",
+      "weight": 0.03177251
+    },
+    {
+      "term": "author",
+      "weight": 0.02268205
+    },
+    {
+      "term": "user",
+      "weight": 0.00981743
+    },
+    {
+      "term": "inform",
+      "weight": 0.00480216
+    },
+    {
+      "term": "data",
+      "weight": 0.00384336
+    },
+    {
+      "term": "authent",
+      "weight": 0.00353719
+    },
+    {
+      "term": "ensur",
+      "weight": 0.00323923
+    },
+    {
+      "term": "prevent",
+      "weight": 0.00318469
+    },
+    {
+      "term": "malici",
+      "weight": 0.00303018
+    },
+    {
+      "term": "secur",
+      "weight": 0.00196144
+    },
+    {
+      "term": "protect",
+      "weight": 0.00149738
+    },
+    {
+      "term": "logon",
+      "weight": 0.00108281
+    },
+    {
+      "term": "role",
+      "weight": 0.00106308
+    },
+    {
+      "term": "databas",
+      "weight": 0.00106135
+    },
+    {
+      "term": "incorrect",
+      "weight": 0.00103579
+    }
+  ],
+  "usability": [
+    {
+      "term": "use",
+      "weight": 0.01945361
+    },
+    {
+      "term": "easi",
+      "weight": 0.00899608
+    },
+    {
+      "term": "user",
+      "weight": 0.00821592
+    },
+    {
+      "term": "abl",
+      "weight": 0.00695613
+    },
+    {
+      "term": "intuit",
+      "weight": 0.00541164
+    },
+    {
+      "term": "train",
+      "weight": 0.00480952
+    },
+    {
+      "term": "minut",
+      "weight": 0.00352921
+    },
+    {
+      "term": "understand",
+      "weight": 0.00346551
+    },
+    {
+      "term": "success",
+      "weight": 0.00311385
+    },
+    {
+      "term": "within",
+      "weight": 0.00284245
+    },
+    {
+      "term": "learn",
+      "weight": 0.00203892
+    },
+    {
+      "term": "navig",
+      "weight": 0.00153701
+    },
+    {
+      "term": "self",
+      "weight": 0.00139342
+    },
+    {
+      "term": "explanatori",
+      "weight": 0.00139342
+    },
+    {
+      "term": "instruct",
+      "weight": 0.00118937
+    }
+  ]
+}

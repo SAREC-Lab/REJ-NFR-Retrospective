@@ -1,0 +1,10 @@
+,availability,legal,look-and-feel,maintainability,operational,performance,scalability,security,usability
+availability,11,0,0,12,4,0,7,4,2
+legal,1,5,0,11,1,0,0,5,1
+look-and-feel,3,0,12,14,1,3,1,2,28
+maintainability,4,0,0,14,0,0,4,2,1
+operational,6,1,0,19,0,0,11,7,6
+performance,5,1,0,7,0,7,9,7,12
+scalability,0,1,0,4,0,0,10,1,1
+security,2,5,0,4,2,0,1,48,0
+usability,0,1,1,9,3,0,1,2,19

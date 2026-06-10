@@ -1,0 +1,1457 @@
+[
+  {
+    "run": 1,
+    "project": "1",
+    "theta_star": 0.07,
+    "metrics": {
+      "availability": {
+        "tp": 1,
+        "fp": 8,
+        "fn": 0,
+        "tn": 19,
+        "recall": 1.0,
+        "precision": 0.1111,
+        "specificity": 0.7037
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 27,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "look-and-feel": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 9,
+        "tn": 18,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9474
+      },
+      "maintainability": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "tn": 26,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.963
+      },
+      "operational": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "tn": 26,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9286
+      },
+      "performance": {
+        "tp": 1,
+        "fp": 10,
+        "fn": 1,
+        "tn": 16,
+        "recall": 0.5,
+        "precision": 0.0909,
+        "specificity": 0.6154
+      },
+      "scalability": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "tn": 26,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9286
+      },
+      "security": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 0,
+        "tn": 24,
+        "recall": 1.0,
+        "precision": 0.25,
+        "specificity": 0.8889
+      },
+      "usability": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 0,
+        "tn": 22,
+        "recall": 1.0,
+        "precision": 0.5,
+        "specificity": 0.88
+      },
+      "functional": {
+        "tp": 8,
+        "fp": 7,
+        "fn": 5,
+        "tn": 8,
+        "recall": 0.6154,
+        "precision": 0.5333,
+        "specificity": 0.5333
+      }
+    }
+  },
+  {
+    "run": 2,
+    "project": "2",
+    "theta_star": 0.07,
+    "metrics": {
+      "availability": {
+        "tp": 2,
+        "fp": 5,
+        "fn": 0,
+        "tn": 33,
+        "recall": 1.0,
+        "precision": 0.2857,
+        "specificity": 0.8684
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 39,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.975
+      },
+      "look-and-feel": {
+        "tp": 5,
+        "fp": 3,
+        "fn": 0,
+        "tn": 32,
+        "recall": 1.0,
+        "precision": 0.625,
+        "specificity": 0.9143
+      },
+      "maintainability": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "tn": 38,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.95
+      },
+      "operational": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "tn": 36,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9
+      },
+      "performance": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 1,
+        "tn": 32,
+        "recall": 0.8571,
+        "precision": 0.8571,
+        "specificity": 0.9697
+      },
+      "scalability": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 0,
+        "tn": 34,
+        "recall": 1.0,
+        "precision": 0.3333,
+        "specificity": 0.8947
+      },
+      "security": {
+        "tp": 2,
+        "fp": 14,
+        "fn": 1,
+        "tn": 23,
+        "recall": 0.6667,
+        "precision": 0.125,
+        "specificity": 0.6216
+      },
+      "usability": {
+        "tp": 4,
+        "fp": 19,
+        "fn": 2,
+        "tn": 15,
+        "recall": 0.6667,
+        "precision": 0.1739,
+        "specificity": 0.4412
+      },
+      "functional": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 14,
+        "tn": 20,
+        "recall": 0.1765,
+        "precision": 0.5,
+        "specificity": 0.8696
+      }
+    }
+  },
+  {
+    "run": 3,
+    "project": "3",
+    "theta_star": 0.06,
+    "metrics": {
+      "availability": {
+        "tp": 3,
+        "fp": 11,
+        "fn": 1,
+        "tn": 64,
+        "recall": 0.75,
+        "precision": 0.2143,
+        "specificity": 0.8533
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 1,
+        "tn": 75,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9615
+      },
+      "look-and-feel": {
+        "tp": 2,
+        "fp": 14,
+        "fn": 0,
+        "tn": 63,
+        "recall": 1.0,
+        "precision": 0.125,
+        "specificity": 0.8182
+      },
+      "maintainability": {
+        "tp": 0,
+        "fp": 7,
+        "fn": 0,
+        "tn": 72,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9114
+      },
+      "operational": {
+        "tp": 7,
+        "fp": 4,
+        "fn": 0,
+        "tn": 68,
+        "recall": 1.0,
+        "precision": 0.6364,
+        "specificity": 0.9444
+      },
+      "performance": {
+        "tp": 2,
+        "fp": 15,
+        "fn": 0,
+        "tn": 62,
+        "recall": 1.0,
+        "precision": 0.1176,
+        "specificity": 0.8052
+      },
+      "scalability": {
+        "tp": 3,
+        "fp": 9,
+        "fn": 1,
+        "tn": 66,
+        "recall": 0.75,
+        "precision": 0.25,
+        "specificity": 0.88
+      },
+      "security": {
+        "tp": 6,
+        "fp": 5,
+        "fn": 4,
+        "tn": 64,
+        "recall": 0.6,
+        "precision": 0.5455,
+        "specificity": 0.9275
+      },
+      "usability": {
+        "tp": 7,
+        "fp": 32,
+        "fn": 1,
+        "tn": 39,
+        "recall": 0.875,
+        "precision": 0.1795,
+        "specificity": 0.5493
+      },
+      "functional": {
+        "tp": 13,
+        "fp": 4,
+        "fn": 33,
+        "tn": 29,
+        "recall": 0.2826,
+        "precision": 0.7647,
+        "specificity": 0.8788
+      }
+    }
+  },
+  {
+    "run": 4,
+    "project": "4",
+    "theta_star": 0.06,
+    "metrics": {
+      "availability": {
+        "tp": 1,
+        "fp": 4,
+        "fn": 1,
+        "tn": 49,
+        "recall": 0.5,
+        "precision": 0.2,
+        "specificity": 0.9245
+      },
+      "legal": {
+        "tp": 2,
+        "fp": 3,
+        "fn": 7,
+        "tn": 43,
+        "recall": 0.2222,
+        "precision": 0.4,
+        "specificity": 0.9348
+      },
+      "look-and-feel": {
+        "tp": 4,
+        "fp": 36,
+        "fn": 1,
+        "tn": 14,
+        "recall": 0.8,
+        "precision": 0.1,
+        "specificity": 0.28
+      },
+      "maintainability": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 3,
+        "tn": 46,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.8846
+      },
+      "operational": {
+        "tp": 5,
+        "fp": 6,
+        "fn": 1,
+        "tn": 43,
+        "recall": 0.8333,
+        "precision": 0.4545,
+        "specificity": 0.8776
+      },
+      "performance": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 1,
+        "tn": 48,
+        "recall": 0.6667,
+        "precision": 0.3333,
+        "specificity": 0.9231
+      },
+      "scalability": {
+        "tp": 2,
+        "fp": 9,
+        "fn": 3,
+        "tn": 41,
+        "recall": 0.4,
+        "precision": 0.1818,
+        "specificity": 0.82
+      },
+      "security": {
+        "tp": 13,
+        "fp": 22,
+        "fn": 0,
+        "tn": 20,
+        "recall": 1.0,
+        "precision": 0.3714,
+        "specificity": 0.4762
+      },
+      "usability": {
+        "tp": 3,
+        "fp": 33,
+        "fn": 0,
+        "tn": 19,
+        "recall": 1.0,
+        "precision": 0.0833,
+        "specificity": 0.3654
+      },
+      "functional": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 15,
+        "tn": 34,
+        "recall": 0.1176,
+        "precision": 0.3333,
+        "specificity": 0.8947
+      }
+    }
+  },
+  {
+    "run": 5,
+    "project": "5",
+    "theta_star": 0.06,
+    "metrics": {
+      "availability": {
+        "tp": 2,
+        "fp": 14,
+        "fn": 0,
+        "tn": 57,
+        "recall": 1.0,
+        "precision": 0.125,
+        "specificity": 0.8028
+      },
+      "legal": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 0,
+        "tn": 67,
+        "recall": 1.0,
+        "precision": 0.5,
+        "specificity": 0.9571
+      },
+      "look-and-feel": {
+        "tp": 4,
+        "fp": 16,
+        "fn": 0,
+        "tn": 53,
+        "recall": 1.0,
+        "precision": 0.2,
+        "specificity": 0.7681
+      },
+      "maintainability": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 1,
+        "tn": 69,
+        "recall": 0.5,
+        "precision": 0.3333,
+        "specificity": 0.9718
+      },
+      "operational": {
+        "tp": 3,
+        "fp": 7,
+        "fn": 2,
+        "tn": 61,
+        "recall": 0.6,
+        "precision": 0.3,
+        "specificity": 0.8971
+      },
+      "performance": {
+        "tp": 4,
+        "fp": 6,
+        "fn": 0,
+        "tn": 63,
+        "recall": 1.0,
+        "precision": 0.4,
+        "specificity": 0.913
+      },
+      "scalability": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 1,
+        "tn": 66,
+        "recall": 0.6667,
+        "precision": 0.3333,
+        "specificity": 0.9429
+      },
+      "security": {
+        "tp": 3,
+        "fp": 14,
+        "fn": 4,
+        "tn": 52,
+        "recall": 0.4286,
+        "precision": 0.1765,
+        "specificity": 0.7879
+      },
+      "usability": {
+        "tp": 5,
+        "fp": 24,
+        "fn": 1,
+        "tn": 43,
+        "recall": 0.8333,
+        "precision": 0.1724,
+        "specificity": 0.6418
+      },
+      "functional": {
+        "tp": 16,
+        "fp": 4,
+        "fn": 23,
+        "tn": 30,
+        "recall": 0.4103,
+        "precision": 0.8,
+        "specificity": 0.8824
+      }
+    }
+  },
+  {
+    "run": 6,
+    "project": "6",
+    "theta_star": 0.05,
+    "metrics": {
+      "availability": {
+        "tp": 2,
+        "fp": 12,
+        "fn": 1,
+        "tn": 59,
+        "recall": 0.6667,
+        "precision": 0.1429,
+        "specificity": 0.831
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 1,
+        "tn": 69,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9452
+      },
+      "look-and-feel": {
+        "tp": 5,
+        "fp": 22,
+        "fn": 0,
+        "tn": 47,
+        "recall": 1.0,
+        "precision": 0.1852,
+        "specificity": 0.6812
+      },
+      "maintainability": {
+        "tp": 5,
+        "fp": 6,
+        "fn": 2,
+        "tn": 61,
+        "recall": 0.7143,
+        "precision": 0.4545,
+        "specificity": 0.9104
+      },
+      "operational": {
+        "tp": 8,
+        "fp": 8,
+        "fn": 7,
+        "tn": 51,
+        "recall": 0.5333,
+        "precision": 0.5,
+        "specificity": 0.8644
+      },
+      "performance": {
+        "tp": 3,
+        "fp": 12,
+        "fn": 1,
+        "tn": 58,
+        "recall": 0.75,
+        "precision": 0.2,
+        "specificity": 0.8286
+      },
+      "scalability": {
+        "tp": 2,
+        "fp": 21,
+        "fn": 2,
+        "tn": 49,
+        "recall": 0.5,
+        "precision": 0.087,
+        "specificity": 0.7
+      },
+      "security": {
+        "tp": 5,
+        "fp": 15,
+        "fn": 2,
+        "tn": 52,
+        "recall": 0.7143,
+        "precision": 0.25,
+        "specificity": 0.7761
+      },
+      "usability": {
+        "tp": 10,
+        "fp": 23,
+        "fn": 3,
+        "tn": 38,
+        "recall": 0.7692,
+        "precision": 0.303,
+        "specificity": 0.623
+      },
+      "functional": {
+        "tp": 12,
+        "fp": 6,
+        "fn": 14,
+        "tn": 42,
+        "recall": 0.4615,
+        "precision": 0.6667,
+        "specificity": 0.875
+      }
+    }
+  },
+  {
+    "run": 7,
+    "project": "7",
+    "theta_star": 0.06,
+    "metrics": {
+      "availability": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 0,
+        "tn": 20,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.8696
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 22,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "look-and-feel": {
+        "tp": 1,
+        "fp": 5,
+        "fn": 1,
+        "tn": 16,
+        "recall": 0.5,
+        "precision": 0.1667,
+        "specificity": 0.7619
+      },
+      "maintainability": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 22,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "operational": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 2,
+        "tn": 20,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9524
+      },
+      "performance": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 1,
+        "tn": 20,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9091
+      },
+      "scalability": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 22,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "security": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "tn": 20,
+        "recall": 1.0,
+        "precision": 0.6667,
+        "specificity": 0.9524
+      },
+      "usability": {
+        "tp": 1,
+        "fp": 5,
+        "fn": 1,
+        "tn": 16,
+        "recall": 0.5,
+        "precision": 0.1667,
+        "specificity": 0.7619
+      },
+      "functional": {
+        "tp": 9,
+        "fp": 4,
+        "fn": 5,
+        "tn": 5,
+        "recall": 0.6429,
+        "precision": 0.6923,
+        "specificity": 0.5556
+      }
+    }
+  },
+  {
+    "run": 8,
+    "project": "8",
+    "theta_star": 0.08,
+    "metrics": {
+      "availability": {
+        "tp": 5,
+        "fp": 5,
+        "fn": 4,
+        "tn": 78,
+        "recall": 0.5556,
+        "precision": 0.5,
+        "specificity": 0.9398
+      },
+      "legal": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 3,
+        "tn": 87,
+        "recall": 0.25,
+        "precision": 0.5,
+        "specificity": 0.9886
+      },
+      "look-and-feel": {
+        "tp": 5,
+        "fp": 6,
+        "fn": 8,
+        "tn": 73,
+        "recall": 0.3846,
+        "precision": 0.4545,
+        "specificity": 0.9241
+      },
+      "maintainability": {
+        "tp": 3,
+        "fp": 5,
+        "fn": 3,
+        "tn": 81,
+        "recall": 0.5,
+        "precision": 0.375,
+        "specificity": 0.9419
+      },
+      "operational": {
+        "tp": 5,
+        "fp": 16,
+        "fn": 5,
+        "tn": 66,
+        "recall": 0.5,
+        "precision": 0.2381,
+        "specificity": 0.8049
+      },
+      "performance": {
+        "tp": 9,
+        "fp": 3,
+        "fn": 9,
+        "tn": 71,
+        "recall": 0.5,
+        "precision": 0.75,
+        "specificity": 0.9595
+      },
+      "scalability": {
+        "tp": 2,
+        "fp": 10,
+        "fn": 2,
+        "tn": 78,
+        "recall": 0.5,
+        "precision": 0.1667,
+        "specificity": 0.8864
+      },
+      "security": {
+        "tp": 8,
+        "fp": 18,
+        "fn": 11,
+        "tn": 55,
+        "recall": 0.4211,
+        "precision": 0.3077,
+        "specificity": 0.7534
+      },
+      "usability": {
+        "tp": 10,
+        "fp": 5,
+        "fn": 14,
+        "tn": 63,
+        "recall": 0.4167,
+        "precision": 0.6667,
+        "specificity": 0.9265
+      },
+      "functional": {
+        "tp": 11,
+        "fp": 17,
+        "fn": 7,
+        "tn": 57,
+        "recall": 0.6111,
+        "precision": 0.3929,
+        "specificity": 0.7703
+      }
+    }
+  },
+  {
+    "run": 9,
+    "project": "9",
+    "theta_star": 0.06,
+    "metrics": {
+      "availability": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 0,
+        "tn": 18,
+        "recall": 1.0,
+        "precision": 0.5,
+        "specificity": 0.8571
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 24,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "look-and-feel": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 0,
+        "tn": 21,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.875
+      },
+      "maintainability": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 0,
+        "tn": 22,
+        "recall": 1.0,
+        "precision": 0.5,
+        "specificity": 0.9565
+      },
+      "operational": {
+        "tp": 1,
+        "fp": 1,
+        "fn": 1,
+        "tn": 21,
+        "recall": 0.5,
+        "precision": 0.5,
+        "specificity": 0.9545
+      },
+      "performance": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 0,
+        "tn": 18,
+        "recall": 1.0,
+        "precision": 0.5,
+        "specificity": 0.8571
+      },
+      "scalability": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 24,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "security": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 23,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9583
+      },
+      "usability": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "tn": 20,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.8333
+      },
+      "functional": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 6,
+        "tn": 7,
+        "recall": 0.6471,
+        "precision": 1.0,
+        "specificity": 1.0
+      }
+    }
+  },
+  {
+    "run": 10,
+    "project": "10",
+    "theta_star": 0.07,
+    "metrics": {
+      "availability": {
+        "tp": 1,
+        "fp": 7,
+        "fn": 0,
+        "tn": 44,
+        "recall": 1.0,
+        "precision": 0.125,
+        "specificity": 0.8627
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 52,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "look-and-feel": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 5,
+        "tn": 44,
+        "recall": 0.2857,
+        "precision": 0.6667,
+        "specificity": 0.9778
+      },
+      "maintainability": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 52,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "operational": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 52,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "performance": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 1,
+        "tn": 48,
+        "recall": 0.5,
+        "precision": 0.3333,
+        "specificity": 0.96
+      },
+      "scalability": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 0,
+        "tn": 49,
+        "recall": 1.0,
+        "precision": 0.3333,
+        "specificity": 0.9608
+      },
+      "security": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 0,
+        "tn": 46,
+        "recall": 1.0,
+        "precision": 0.3333,
+        "specificity": 0.92
+      },
+      "usability": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 0,
+        "tn": 46,
+        "recall": 1.0,
+        "precision": 0.3333,
+        "specificity": 0.92
+      },
+      "functional": {
+        "tp": 32,
+        "fp": 5,
+        "fn": 6,
+        "tn": 9,
+        "recall": 0.8421,
+        "precision": 0.8649,
+        "specificity": 0.6429
+      }
+    }
+  },
+  {
+    "run": 11,
+    "project": "11",
+    "theta_star": 0.07,
+    "metrics": {
+      "availability": {
+        "tp": 4,
+        "fp": 4,
+        "fn": 0,
+        "tn": 5,
+        "recall": 1.0,
+        "precision": 0.5,
+        "specificity": 0.5556
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 13,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "look-and-feel": {
+        "tp": 2,
+        "fp": 6,
+        "fn": 0,
+        "tn": 5,
+        "recall": 1.0,
+        "precision": 0.25,
+        "specificity": 0.4545
+      },
+      "maintainability": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 13,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "operational": {
+        "tp": 0,
+        "fp": 6,
+        "fn": 0,
+        "tn": 7,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.5385
+      },
+      "performance": {
+        "tp": 4,
+        "fp": 4,
+        "fn": 1,
+        "tn": 4,
+        "recall": 0.8,
+        "precision": 0.5,
+        "specificity": 0.5
+      },
+      "scalability": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 13,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "security": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "tn": 10,
+        "recall": 1.0,
+        "precision": 1.0,
+        "specificity": 1.0
+      },
+      "usability": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1.0,
+        "precision": 0.5,
+        "specificity": 0.7
+      },
+      "functional": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 12,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      }
+    }
+  },
+  {
+    "run": 12,
+    "project": "12",
+    "theta_star": 0.06,
+    "metrics": {
+      "availability": {
+        "tp": 1,
+        "fp": 4,
+        "fn": 2,
+        "tn": 15,
+        "recall": 0.3333,
+        "precision": 0.2,
+        "specificity": 0.7895
+      },
+      "legal": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "tn": 21,
+        "recall": 1.0,
+        "precision": 1.0,
+        "specificity": 1.0
+      },
+      "look-and-feel": {
+        "tp": 1,
+        "fp": 4,
+        "fn": 0,
+        "tn": 17,
+        "recall": 1.0,
+        "precision": 0.2,
+        "specificity": 0.8095
+      },
+      "maintainability": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 2,
+        "tn": 16,
+        "recall": 0.5,
+        "precision": 0.5,
+        "specificity": 0.8889
+      },
+      "operational": {
+        "tp": 2,
+        "fp": 3,
+        "fn": 1,
+        "tn": 16,
+        "recall": 0.6667,
+        "precision": 0.4,
+        "specificity": 0.8421
+      },
+      "performance": {
+        "tp": 2,
+        "fp": 3,
+        "fn": 4,
+        "tn": 13,
+        "recall": 0.3333,
+        "precision": 0.4,
+        "specificity": 0.8125
+      },
+      "scalability": {
+        "tp": 2,
+        "fp": 2,
+        "fn": 1,
+        "tn": 17,
+        "recall": 0.6667,
+        "precision": 0.5,
+        "specificity": 0.8947
+      },
+      "security": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 2,
+        "tn": 17,
+        "recall": 0.3333,
+        "precision": 0.3333,
+        "specificity": 0.8947
+      },
+      "usability": {
+        "tp": 1,
+        "fp": 4,
+        "fn": 4,
+        "tn": 13,
+        "recall": 0.2,
+        "precision": 0.2,
+        "specificity": 0.7647
+      },
+      "functional": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "tn": 18,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.8182
+      }
+    }
+  },
+  {
+    "run": 13,
+    "project": "13",
+    "theta_star": 0.06,
+    "metrics": {
+      "availability": {
+        "tp": 1,
+        "fp": 3,
+        "fn": 0,
+        "tn": 15,
+        "recall": 1.0,
+        "precision": 0.25,
+        "specificity": 0.8333
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "tn": 18,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "look-and-feel": {
+        "tp": 7,
+        "fp": 2,
+        "fn": 1,
+        "tn": 9,
+        "recall": 0.875,
+        "precision": 0.7778,
+        "specificity": 0.8182
+      },
+      "maintainability": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "tn": 17,
+        "recall": 1.0,
+        "precision": 1.0,
+        "specificity": 1.0
+      },
+      "operational": {
+        "tp": 2,
+        "fp": 9,
+        "fn": 1,
+        "tn": 7,
+        "recall": 0.6667,
+        "precision": 0.1818,
+        "specificity": 0.4375
+      },
+      "performance": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 0,
+        "tn": 16,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.8421
+      },
+      "scalability": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 2,
+        "tn": 14,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.8235
+      },
+      "security": {
+        "tp": 2,
+        "fp": 11,
+        "fn": 0,
+        "tn": 6,
+        "recall": 1.0,
+        "precision": 0.1538,
+        "specificity": 0.3529
+      },
+      "usability": {
+        "tp": 6,
+        "fp": 10,
+        "fn": 0,
+        "tn": 3,
+        "recall": 1.0,
+        "precision": 0.375,
+        "specificity": 0.2308
+      },
+      "functional": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "tn": 17,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9444
+      }
+    }
+  },
+  {
+    "run": 14,
+    "project": "14",
+    "theta_star": 0.06,
+    "metrics": {
+      "availability": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "tn": 14,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "legal": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 16,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 1.0
+      },
+      "look-and-feel": {
+        "tp": 0,
+        "fp": 3,
+        "fn": 4,
+        "tn": 9,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.75
+      },
+      "maintainability": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 2,
+        "tn": 11,
+        "recall": 0.5,
+        "precision": 0.6667,
+        "specificity": 0.9167
+      },
+      "operational": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 2,
+        "tn": 11,
+        "recall": 0.3333,
+        "precision": 0.3333,
+        "specificity": 0.8462
+      },
+      "performance": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 1,
+        "tn": 12,
+        "recall": 0.6667,
+        "precision": 0.6667,
+        "specificity": 0.9231
+      },
+      "scalability": {
+        "tp": 0,
+        "fp": 7,
+        "fn": 0,
+        "tn": 9,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.5625
+      },
+      "security": {
+        "tp": 1,
+        "fp": 6,
+        "fn": 1,
+        "tn": 8,
+        "recall": 0.5,
+        "precision": 0.1429,
+        "specificity": 0.5714
+      },
+      "usability": {
+        "tp": 2,
+        "fp": 7,
+        "fn": 1,
+        "tn": 6,
+        "recall": 0.6667,
+        "precision": 0.2222,
+        "specificity": 0.4615
+      },
+      "functional": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 1,
+        "tn": 12,
+        "recall": 0.5,
+        "precision": 0.3333,
+        "specificity": 0.8571
+      }
+    }
+  },
+  {
+    "run": 15,
+    "project": "15",
+    "theta_star": 0.07,
+    "metrics": {
+      "availability": {
+        "tp": 3,
+        "fp": 2,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1.0,
+        "precision": 0.6,
+        "specificity": 0.7778
+      },
+      "legal": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 1,
+        "tn": 10,
+        "recall": 0.5,
+        "precision": 1.0,
+        "specificity": 1.0
+      },
+      "look-and-feel": {
+        "tp": 1,
+        "fp": 4,
+        "fn": 1,
+        "tn": 6,
+        "recall": 0.5,
+        "precision": 0.2,
+        "specificity": 0.6
+      },
+      "maintainability": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "tn": 9,
+        "recall": 1.0,
+        "precision": 0.6667,
+        "specificity": 0.9
+      },
+      "operational": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 2,
+        "tn": 7,
+        "recall": 0.3333,
+        "precision": 0.3333,
+        "specificity": 0.7778
+      },
+      "performance": {
+        "tp": 3,
+        "fp": 3,
+        "fn": 0,
+        "tn": 6,
+        "recall": 1.0,
+        "precision": 0.5,
+        "specificity": 0.6667
+      },
+      "scalability": {
+        "tp": 0,
+        "fp": 4,
+        "fn": 0,
+        "tn": 8,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.6667
+      },
+      "security": {
+        "tp": 2,
+        "fp": 3,
+        "fn": 0,
+        "tn": 7,
+        "recall": 1.0,
+        "precision": 0.4,
+        "specificity": 0.7
+      },
+      "usability": {
+        "tp": 1,
+        "fp": 5,
+        "fn": 0,
+        "tn": 6,
+        "recall": 1.0,
+        "precision": 0.1667,
+        "specificity": 0.5455
+      },
+      "functional": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "tn": 11,
+        "recall": 0.0,
+        "precision": 0.0,
+        "specificity": 0.9167
+      }
+    }
+  }
+]

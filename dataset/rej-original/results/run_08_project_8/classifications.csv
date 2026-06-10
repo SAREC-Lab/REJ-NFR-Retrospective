@@ -1,0 +1,93 @@
+project,text,actual_types,predicted_types,preprocessed_tokens
+8,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,performance|usability,performance,administr abl activ pre paid card via administr section second
+8,Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.,performance|usability,performance|scalability,custom abl check statu prepaid card enter pin number second
+8,"System shall let customers register on the website as a ""pay as you go"" user in under 5 minutes.",performance|usability,security,let custom regist websit pay go user minut
+8,"System shall let customers register on the website as a ""unlimited movie subscriber"" user in under 10 minutes.",performance|usability,security,let custom regist websit unlimit movi subscrib user minut
+8,System shall let existing customers log into the website with their email address and password in under 5 seconds.,performance|usability,performance,let exist custom log websit email address password second
+8,System shall let customers cancel their account process shall take no longer than 2 minutes. Database will mark the account as inactive and user will not be able to log into the website.,performance|security|usability,operational|performance|scalability|security|usability,let custom cancel account process take longer minut databas mark account inact user abl log websit
+8,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,performance|security,security,let administr de activ custom account minut custom longer abl access websit
+8,System shall let administrator add/remove movies on the website in under 5 minutes. Entered movie information will be stored in the database and will now be available on the website.,performance|usability,availability|operational,let administr add remov movi websit minut enter movi inform store databas avail websit
+8,System shall let the administrator add/remove categories on the website in under 5 minutes.,performance|usability,functional,let administr add remov categori websit minut
+8,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,performance,security,let izogn manag access sale usag statist minut
+8,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,performance|usability,functional,let administr gener uniqu pre paid pin minut gener excel file gener pin
+8,The website shall be attractive to all audiences. The website shall appear to be fun and the colors should be bright and vibrant.,look-and-feel,look-and-feel,websit attract audienc websit appear fun color bright vibrant
+8,The website should have an African feel but should not alienate non-Africans. The website should use animation on pages which are describing the services to grab the users attention and encourage them to sign up.,look-and-feel,look-and-feel|security|usability,websit african feel alien non african websit use anim page describ servic grab user attent encourag sign
+8,The website design should be modern clean and concise.,look-and-feel,functional,websit design modern clean concis
+8,The product should be able to be used by 90% of novice users on the Internet.,usability,look-and-feel|scalability|security|usability,abl use novic user internet
+8,Users should only have to navigate through a maximum of 4 pages to create an account with the website.,look-and-feel|usability,security,user navig maximum page creat account websit
+8,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,look-and-feel|usability,scalability|security|usability,user abl access stream movi click log websit
+8,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,usability,usability,anonym survey show custom comfort purchas stream movi week use websit
+8,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,usability,usability,anonym survey show custom comfort use purchas pre paid card month use
+8,The product shall retain the customer's buying preferences and information.,usability,functional,retain custom buy prefer inform
+8,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,performance|usability,usability,easi custom novic skill internet purchas watch stream movi custom abl purchas watch pre determin movi minut
+8,The product shall use symbols and words that are naturally understandable by users familiar with websites,look-and-feel|usability,look-and-feel|security|usability,use symbol word natur understand user familiar websit
+8,The website will use standard Internet conventions when interacting with the user.,look-and-feel|usability,look-and-feel|security|usability,websit use standard internet convent interact user
+8,Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below.,performance,availability|look-and-feel|operational|performance|security,interfac user autom maximum respons time second unless note except
+8,When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.,performance,availability|performance,purchas stream movi pre paid card via credit card process time maximum respons time second
+8,When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user's connection.),performance,availability|performance|security,stream movi buffer time take longer second plu latenc user connect
+8,While streaming a movie buffering should only occur if there is latency in the user's connection.,performance,security,stream movi buffer occur latenc user connect
+8,All credit card information will be secured on the server and only accessible by authorized Izogn administrators. Information will be encrypted in the database.,security,operational|security,credit card inform secur server access author izogn administr inform encrypt databas
+8,The website shall be available for use 24 hours per day 365 days per year.,availability,availability|scalability|usability,websit avail use hour per day day per year
+8,The website shall achieve 99.5% up time.,availability,availability|performance,websit achiev time
+8,All movies shall be streamed on demand at any time of the day.,availability,availability|performance,movi stream demand time day
+8,The website shall continue to operate if the streaming server goes down.,availability,operational,websit continu oper stream server goe
+8,The website shall continue to operate if the payment gateway goes down.,availability,operational,websit continu oper payment gateway goe
+8,The streaming server will support 50 simultaneous streaming connections.,scalability,operational|scalability,stream server support simultan stream connect
+8,The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.,maintainability|scalability,maintainability|operational,stream server support maximum movi new server ad support movi
+8,The server will support a maximum of 1 000 simultaneous users.,scalability,operational|scalability|security,server support maximum simultan user
+8,The website shall be capable of supporting 100 000 customers.,scalability,functional,websit capabl support custom
+8,The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years.,maintainability|operational,maintainability|operational|scalability,expect oper within maximum mainten budget minimum year
+8,All aspects of the website shall be accessed by a web browser over the Internet.,operational,security,aspect websit access web browser internet
+8,The same hardware supporting the current website will be used to support the new system.,operational,maintainability|usability,hardwar support current websit use support new
+8,We must be able to interface with the following browsers: IE 5.X 6.0 Netscape 6.x 7.x 8.x and Firefox 1.0.,operational,look-and-feel|operational,abl interfac follow browser ie x netscap x x x firefox
+8,Website must interface with the CyberSource API to process credit card transactions.,operational,look-and-feel|operational,websit interfac cybersourc api process credit card transact
+8,Website must be fully operational with MSN TV2.,operational,operational,websit fulli oper msn tv
+8,Movies shall be encoded and streamed via Windows Media Player 9.0.,operational,functional,movi encod stream via window media player
+8,Movies shall be encoded for 56k and 256k streams.,operational,functional,movi encod k k stream
+8,Promotional updates to the website should take a day to update.,maintainability|usability,maintainability,promot updat websit take day updat
+8,Izogn Administrator must be able to update the category listings on the website within 2 minutes.,look-and-feel|performance|usability,maintainability|performance|usability,izogn administr abl updat categori list websit within minut
+8,Izogn Administrator must be able to add new products to the website within 2 minutes.,look-and-feel|performance|usability,maintainability|performance|usability,izogn administr abl add new product websit within minut
+8,The system will provide a 24 hour 800 toll free number for support to its customers.,availability,availability|scalability,provid hour toll free number support custom
+8,The website will provide a help section with answers and solutions to common problems.,functional,functional,websit provid help section answer solut common problem
+8,Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators.,availability,availability,velkat staff avail phone support pm f provid technic support izogn administr
+8,The product shall be able to be installed in the specified environment within 1 working day.,operational,operational|scalability|usability,abl instal specifi environ within work day
+8,Only registered customers can purchase streaming movies.,security,functional,regist custom purchas stream movi
+8,A customer can only stream a movie if they purchased it and are within the 2 day viewing period.,legal|security,functional,custom stream movi purchas within day view period
+8,Only authorized personnel can access customer records in the database.,security,operational|security,author personnel access custom record databas
+8,Only administrators can activate a pre-paid card.,security,functional,administr activ pre paid card
+8,Only authorized personnel can access sales information.,security,security,author personnel access sale inform
+8,The website shall prevent its data from being corrupted when incorrect data is entered in.,security,functional,websit prevent data corrupt incorrect data enter
+8,The website shall protect itself from intentional abuse and notify the administrator at all occurrences.,maintainability|security,functional,websit protect intent abus notifi administr occurr
+8,Data integrity scripts will be run on a weekly basis to verify the integrity of the database.,maintainability|security,operational,data integr script run weekli basi verifi integr databas
+8,The website shall make its user aware of its information practices before collection data from them via a Privacy Policy accessible on all pages of the website.,security|usability,security,websit make user awar inform practic collect data via privaci polici access page websit
+8,The system shall notify customers of changes to its information policy.,functional,functional,notifi custom chang inform polici
+8,The system shall reveal private information only in compliance with the organization's information policy.,legal|security,functional,reveal privat inform complianc organ inform polici
+8,All customer information will be stored on a secure database accessible only to authorized personnel.,security,operational|security,custom inform store secur databas access author personnel
+8,All credit card information will be encrypted in the database.,security,operational,credit card inform encrypt databas
+8,The streaming server will have anti-virus software to prevent infection of malicious viruses.,security,operational,stream server anti viru softwar prevent infect malici virus
+8,The website should cater to all tribes in Nigeria.,look-and-feel|usability,functional,websit cater tribe nigeria
+8,The website shall not be offensive to religious or ethnic groups.,look-and-feel,functional,websit offens religi ethnic group
+8,The website should appeal to all Africans not only Nigerians.,look-and-feel,functional,websit appeal african nigerian
+8,The website should use Flash to provide animation on the home page.,look-and-feel|operational,look-and-feel|usability,websit use flash provid anim home page
+8,IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.,legal,functional,izognmovi meet licens requir set forth appropri organ order stream african movi
+8,The website will comply with W3C standards.,legal|security,legal|look-and-feel,websit compli w c standard
+8,The PHP code will comply with PEAR standards.,security,legal|look-and-feel,php code compli pear standard
+8,The website will allow customers to search for movies by title actor or director.,functional,functional,websit allow custom search movi titl actor director
+8,viewing a movie details the website will display the movies description actor and director entered in by the administrator.,functional,functional,view movi detail websit display movi descript actor director enter administr
+8,Website shall request and authorize credit card payment before allowing a user to stream a movie.,functional,security,websit request author credit card payment allow user stream movi
+8,shall be able to stream purchased movie via Windows Media Player for up to 2 days aftere purchase date.,functional,scalability,abl stream purchas movi via window media player day after purchas date
+8,Website shall allow customers to browse movies by categories entered in by izogn administrator.,functional,functional,websit allow custom brows movi categori enter izogn administr
+8,Website shall allow customers to view reviews of selected movies by other customers.,functional,functional,websit allow custom view review select movi custom
+8,Website shall allow customers to add their own movie review for a selected movie.,functional,functional,websit allow custom add movi review select movi
+8,Website shall allow the Izogn administrator to approve a review posted by a customer.,functional,functional,websit allow izogn administr approv review post custom
+8,System will allow customers to pay for a streaming movie with a pre-paid card.,functional,functional,allow custom pay stream movi pre paid card
+8,Website shall allow customers to purchase pre-paid cards of $5 $10 or $20 value either by credit card or mail-in payment option.,functional,functional,websit allow custom purchas pre paid card valu either credit card mail payment option
+8,System shall automatically update the main page of the website every Friday and show the 4 latest movies that have been added to the website.,functional,maintainability,automat updat main page websit everi friday show latest movi ad websit
+8,System shall allow users to update their billing and contact information via the â€œMy Accountâ€ section of the website.,functional,maintainability|security,allow user updat bill contact inform via account section websit
+8,Pre-paid cards shall be distributed via email or via a printed paper card.,functional,functional,pre paid card distribut via email via print paper card
+8,Movies can only be streamed if the customer has purchased a movie and is within the 2-day time period to stream the movie.,functional,availability|performance,movi stream custom purchas movi within day time period stream movi
+8,Website must be able to support free trial periods with various parameters set by the Izogn Manager.,functional,scalability,websit abl support free trial period variou paramet set izogn manag
+8,All streaming movie sales will be logged in the database and accessible by the administrator.,availability,operational|security,stream movi sale log databas access administr
+8,All registered customer information shall be stored and maintained in the database even after the customer cancels their account.,functional,operational,regist custom inform store maintain databas even custom cancel account
+8,Daily usage statistics should be logged and accessible by the administrator.,maintainability,security,daili usag statist log access administr
+8,The owner shall have free access to all of the streaming movies.,availability|security|usability,security,owner free access stream movi

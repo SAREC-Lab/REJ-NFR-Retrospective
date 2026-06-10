@@ -1,0 +1,25 @@
+project,text,actual_types,predicted_types,preprocessed_tokens
+9,Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.,availability|performance,availability|performance,total lead cycl time complet minut lead volum busi hour cst pm cst minut lead volum busi hour
+9,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,availability|performance,availability|performance,lead evalu complet time period longer second lead process
+9,For leads that process longer than 25 seconds the system will record the event and duration,functional,performance,lead process longer second record event durat
+9,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,performance,availability|performance|usability,process fit within process time condit set forth auto rep assign process lead assign within minut total life cycl
+9,The lead washing process will operate within the established physical web service structure.,operational,operational|performance,lead wash process oper within establish physic web servic structur
+9,The washing process must use a non binding neutral data format such as xml when receiving and processing lead data.,operational,look-and-feel|usability,wash process use non bind neutral data format xml receiv process lead data
+9,Defect reports will be available to technical units on a 24x7 basis.,availability,availability,defect report avail technic unit x basi
+9,Washing parameters will be updated during scheduled maintenance hours.,maintainability,availability|maintainability,wash paramet updat schedul mainten hour
+9,The vendor will verify the invalid lead.,functional,functional,vendor verifi invalid lead
+9,Vendor will submit a credit validation record to be applied to the enterprise billing system.,functional,functional,vendor submit credit valid record appli enterpris bill
+9,If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.,functional,functional,lead score high rang suppli lead data score enterpris
+9,The leads washing functionality will validate all leads received by the web service for valid data,functional,functional,lead wash function valid lead receiv web servic valid data
+9,The leads washing functionality will insert all leads captured by the web service.,functional,functional,lead wash function insert lead captur web servic
+9,If the leads score falls within the high average score then it will be process by the ARA functionality.,functional,performance,lead score fall within high averag score process ara function
+9,If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.,functional,functional,lead score fall within medium averag set manual verif enrol coordin elead
+9,If the leads score falls within the low average then it will be returned to the supplying vendor,functional,functional,lead score fall within low averag return suppli vendor
+9,The leads washing functionality will compile both contact and academic scoring information for a total score.,functional,functional,lead wash function compil contact academ score inform total score
+9,The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.,functional,look-and-feel|usability,lead wash function use paramet suppli corpor school score part lead
+9,The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.,functional,functional,lead wash function return lead data suppli vendor along reason reject
+9,The leads washing functionality will have an interface in which lead data parameters can be maintained.,functional,look-and-feel|operational,lead wash function interfac lead data paramet maintain
+9,The leads washing functionality will verify the users authentication and rights to make parameter updates.,functional,maintainability|security|usability,lead wash function verifi user authent right make paramet updat
+9,The leads washing functionality will store any potential lead duplicates returned by the enterprise system.,functional,functional,lead wash function store potenti lead duplic return enterpris
+9,Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.,functional,functional,prior submit lead enterpris lead wash function assign lead admiss rep
+9,The leads washing functionality shall receive a period list of available reps from the enterprise system.,functional,availability,lead wash function receiv period list avail rep enterpris

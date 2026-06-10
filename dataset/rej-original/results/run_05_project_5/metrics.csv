@@ -1,0 +1,11 @@
+type,tp,fp,fn,tn,recall,precision,specificity
+availability,2,14,0,57,1.0,0.125,0.8028
+legal,3,3,0,67,1.0,0.5,0.9571
+look-and-feel,4,16,0,53,1.0,0.2,0.7681
+maintainability,1,2,1,69,0.5,0.3333,0.9718
+operational,3,7,2,61,0.6,0.3,0.8971
+performance,4,6,0,63,1.0,0.4,0.913
+scalability,2,4,1,66,0.6667,0.3333,0.9429
+security,3,14,4,52,0.4286,0.1765,0.7879
+usability,5,24,1,43,0.8333,0.1724,0.6418
+functional,16,4,23,30,0.4103,0.8,0.8824

@@ -1,0 +1,41 @@
+project,text,actual_types,predicted_types,preprocessed_tokens
+2,The look and feel of the system shall conform to the user interface standards of the smart device.,look-and-feel,legal|look-and-feel|operational|security|usability,look feel conform user interfac standard smart devic
+2,The user interface shall have standard menus buttons for navigation,look-and-feel,look-and-feel|operational|security|usability,user interfac standard menu button navig
+2,The system shall have a professional appearance,look-and-feel,look-and-feel,profession appear
+2,The product shall have a consistent color scheme and fonts.,look-and-feel,look-and-feel,consist color scheme font
+2,The system shall be used by realtors with no training.,usability,look-and-feel|usability,use realtor train
+2,The system shall be intuitive and self explanatory.,usability,functional,intuit self explanatori
+2,The product shall be easy for a realtor to learn.,usability,usability,easi realtor learn
+2,The product shall use symbols and words that are naturally understandable by the realtor community.,look-and-feel|usability,look-and-feel|usability,use symbol word natur understand realtor commun
+2,The product shall produce search results in an acceptable time,performance,availability|performance,produc search result accept time
+2,The search results shall be returned no later 30 seconds after the user has entered the search criteria,performance,performance|security|usability,search result return later second user enter search criteria
+2,The product shall generate a CMA report in an acceptable time.,performance,availability|performance,gener cma report accept time
+2,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,performance,performance|security|usability,cma report return later second user enter cma report criteria
+2,The product shall synchronize contacts and appointments in an acceptable time.,performance,availability|performance,synchron contact appoint accept time
+2,The product shall synchronize with the office system every hour.,performance,availability,synchron offic everi hour
+2,The product shall be available for use 24 hours per day 365 days per year,availability,availability|look-and-feel|scalability|usability,avail use hour per day day per year
+2,Out of 1000 accesses to the system the system is available 999 times.,availability,availability|performance|security,access avail time
+2,The product shall operate in offline mode whenever internet connection is unavailable.,functional,operational,oper offlin mode whenev internet connect unavail
+2,The product shall allow the user to view previously downloaded search results CMA reports and appointments.,functional,security|usability,allow user view previous download search result cma report appoint
+2,The product shall retain user preferences in the event of a failure.,functional,security|usability,retain user prefer event failur
+2,100% of saved user preferences shall be restored when system comes back online.,functional,security|usability,save user prefer restor come back onlin
+2,The product shall be able to support multiple remote users,functional,scalability|security|usability,abl support multipl remot user
+2,The product shall be able support 1000 simultaneous users.,scalability,scalability|security|usability,abl support simultan user
+2,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.,performance|scalability,availability|look-and-feel|performance|scalability|security|usability,capabl handl exist user number expect grow time within next year
+2,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.,usability,functional,instal untrain realtor without recours separ print instruct
+2,90% of untrained realtors shall be able to install the product on their device without printed instructions,usability,usability,untrain realtor abl instal devic without print instruct
+2,The product is expected to run on Windows CE and Palm operating systems.,functional,operational,expect run window ce palm oper system
+2,Only registered realtors shall be able to access the system.,security,security|usability,regist realtor abl access
+2,Every user of the system shall be authenticated and authorized.,security,security|usability,everi user authent author
+2,The product shall prevent its data from incorrect data being introduced.,security,functional,prevent data incorrect data introduc
+2,The system shall allow a real estate agent to query MLS information,functional,functional,allow real estat agent queri ml inform
+2,The user shall be able to get driving directions to a selected property,functional,scalability|security|usability,user abl get drive direct select properti
+2,The user shall be able to download appointments and contact information for clients,functional,scalability|security|usability,user abl download appoint contact inform client
+2,The system shall display clear property images in the search results,functional,functional,display clear properti imag search result
+2,The system shall update or create new property listings in the MLS,functional,maintainability,updat creat new properti list ml
+2,Realtor shall be able to generate a CMA report based on property criteria,functional,usability,realtor abl gener cma report base properti criteria
+2,The system shall be able to call the seller or buyer to schedule an appointment,functional,usability,abl call seller buyer schedul appoint
+2,The realtor shall be notified of new client appointments after automatic synchronization with office system,functional,maintainability,realtor notifi new client appoint automat synchron offic
+2,The realtor shall be able to retrieve a map showing property locations for a specified area,functional,usability,realtor abl retriev map show properti locat specifi area
+2,The system shall notify the realtor when a seller or buyer responds to an appointment request,functional,functional,notifi realtor seller buyer respond appoint request
+2,The product shall allow the user to save the property search results.,functional,security|usability,allow user save properti search result

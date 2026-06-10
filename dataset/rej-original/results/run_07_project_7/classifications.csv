@@ -1,0 +1,24 @@
+project,text,actual_types,predicted_types,preprocessed_tokens
+7,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,performance,functional,recreat inventori quantiti adjust period previou day take min
+7,The System shall allow for a minimum of 6 users to work at the same time.,scalability,availability|look-and-feel|performance|security|usability,allow minimum user work time
+7,The System shall utilize currently owned computer equipment.,operational,functional,util current own comput equip
+7,The System shall be able to automatically backup business data and restore them on demand.,functional,usability,abl automat backup busi data restor demand
+7,The System shall maintain consistent security. Any changes in user passwords and/or permissions should take affect in all parts of the System.,security,look-and-feel|security|usability,maintain consist secur chang user password permiss take affect part
+7,The System shall granularly control access rights to all major subsystems. It should be possible to assign access rights to all subsystems independently.,security,security,granularli control access right major subsystem possibl assign access right subsystem independ
+7,The System shall meet all applicable accounting standards. The final version of the System must successfully pass independent audit performed by a certified auditor.,legal|maintainability,look-and-feel,meet applic account standard final version success pass independ audit perform certifi auditor
+7,The System shall not require additional third party licenses resulting in royalty fees.,operational,functional,requir addit third parti licens result royalti fee
+7,The System shall allow generation of Inventory Quantity Adjustment documents on demand.,functional,functional,allow gener inventori quantiti adjust document demand
+7,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.,functional,availability|performance,allow demand gener inventori quantiti adjust document sinc certain point time
+7,The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.,functional,functional,iqa subsystem take account current inventori statu adjust inventori substitutionari ingredi accordingli
+7,The System shall allow entering storing and modifying product formulas.,functional,functional,allow enter store modifi formula
+7,Product formulas shall allow use of semi-products which have own formulas.,functional,look-and-feel|usability,formula allow use semi product formula
+7,Product formula ingredients shall allow defining substitutionary ingredients.,functional,functional,formula ingredi allow defin substitutionari ingredi
+7,Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.,functional,functional,formula substitutionari ingredi enter automat pfe subsystem
+7,Formula substitutionary ingredients shall be kept in persisted order,functional,functional,formula substitutionari ingredi kept persist order
+7,Product shall allow entering storing and modifying product menus used by POS terminals.,functional,look-and-feel|usability,allow enter store modifi menu use po termin
+7,PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.,functional,functional,pme subsystem allow build menu base list product kept account
+7,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.,look-and-feel|usability,functional,pme subsystem allow keep submenu within menu product within submenu manag persist order
+7,PME Subsystem shall allow for a product to exist in more than one submenu,functional,functional,pme subsystem allow exist one submenu
+7,The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.,look-and-feel|usability,look-and-feel|operational|usability,rm window xp look feel use gui futur make use intuit
+7,The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.,functional,functional,gener inventori quantiti adjust document base daili sale data formula
+7,The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.,functional,availability,gener inventori quantiti adjust document automat daili sale data avail
