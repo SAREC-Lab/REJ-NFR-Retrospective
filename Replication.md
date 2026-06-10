@@ -12,7 +12,7 @@ Classifies requirements by scoring them against weighted indicator terms mined p
 
 **Paper:** Cleland-Huang, J., Settimi, R., Zou, X., and Solc, P. "Automated Classification of Non-Functional Requirements." *Requirements Engineering Journal*, 12:103–120, 2007. [[link]](PLACEHOLDER)
 
-**Replication:** [`rej-original/README.md`](./rej-original/README.md)
+**Replication:** [`rej-original/README.md`](./dataset/rej-original/README.md)
 
 ---
 
