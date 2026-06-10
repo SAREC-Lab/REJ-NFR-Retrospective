@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# NLP / ML artifacts
+*_cache.json
+*cache*.json
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.h5
+*.model
+
+# Hugging Face / sentence-transformers model cache
+.cache/
+models/
+sentence_transformers/
+
+# spaCy downloaded models
+en_core_web*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
