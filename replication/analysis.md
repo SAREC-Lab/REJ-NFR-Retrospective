@@ -14,9 +14,9 @@ This standardization reduces methodological variation unrelated to the underlyin
 
 The selected techniques provide both methodological diversity and a view of the field's evolving capabilities, illustrating the progression from manually engineered features to modern language-model reasoning.
 
-| ID | Year | Technique |Paper URL |
-|----|------|-----------|---------|
-| P-REJ | 2007 | Indicator-term classification using TF-IDF-inspired weighting and threshold-based assignment based on the original REJ paper ||
+| ID | Year | Technique |Paper URL | Replication Package |
+|----|------|-----------|---------|----------------------|
+| P-REJ | 2007 | Indicator-term classification using TF-IDF-inspired weighting and threshold-based assignment based on the original REJ paper ||[package](..dataset/rej-original/README.md)|
 | P011 | 2010 | Dependency-graph similarity with k-NN, SVM, and Naïve Bayes classifiers ||
 | P001 | 2020 | NoRBERT transformer-based transfer learning ||
 | P003 | 2023 | Zero-shot NFR classification using pretrained transformer embeddings and semantic similarity ||
