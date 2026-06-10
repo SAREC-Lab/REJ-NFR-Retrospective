@@ -35,7 +35,7 @@ Together, these artifacts document how a single research contribution evolved in
 |[Analyzed Papers](papers/analysis.md)| References and metadata for analyzed papers             |
 | `impact-analysis/` | Citation analysis results and influence classifications |
 | `datasets/`        | PROMISE datasets and related resources                  |
-| [Replicated Techniques](replication/analysis.md)| Replication implementations of selected approaches      |
+| [Replicated Techniques](Replication.md)| Replication implementations of selected approaches      |
 
 
 ## Citation Corpus
