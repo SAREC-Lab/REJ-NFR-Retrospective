@@ -36,6 +36,7 @@ Together, these artifacts document how a single research contribution evolved in
 | `impact-analysis/` | Citation analysis results and influence classifications |
 | `datasets/`        | PROMISE datasets and related resources                  |
 | [Replicated Techniques](Replication.md)| Replication implementations of selected approaches      |
+| [Vibe-Coding](vibe/analysis.md)      | Architecturally Significant Concerns in Vibe-Coding |
 
 
 ## Citation Corpus
