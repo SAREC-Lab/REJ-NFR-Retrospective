@@ -28,7 +28,7 @@ Our preliminary analysis suggests that quality concerns remain pervasive in AI-a
 
 ## Example Quality Concerns Identified in Developer–LLM Conversations
 
-The examples below illustrate how quality concerns emerge naturally within developer–LLM conversations. Unlike traditional requirements artifacts, these concerns are often expressed as questions, implementation requests, architectural tradeoffs, or design discussions rather than as explicit requirements statements.
+The examples below illustrate how quality concerns emerge naturally within developer–LLM conversations. Unlike traditional requirements artifacts, these concerns are often expressed as questions, implementation requests, architectural tradeoffs, or design discussions rather than as explicit requirements statements.  
 
 | Quality Concern Type | Example Developer Prompt |
 |---------------------|--------------------------|
@@ -40,7 +40,7 @@ The examples below illustrate how quality concerns emerge naturally within devel
 | **Usability** | *"But won't this make a messy list for the user? ... users are likely to want to add the whole string 'Mozilla Firefox' when creating/appending a category."* |
 | **Security** | *"Are there any risks / trade-offs involved with setting SO_REUSEADDR on outgoing TCP connection sockets underlying an HTTP client?"* |
 
-These examples were automatically identified by an exploratory agent-based classifier and have not yet undergone comprehensive manual validation. They are provided to illustrate how quality concerns frequently emerge within conversational development workflows, often blurring traditional boundaries between requirements, architecture, implementation, and design rationale.
+These examples were automatically identified by an exploratory agent-based classifier applied to snapshot_20230727 from the DevGPT dataset [3], and have not yet undergone comprehensive manual validation. They are provided to illustrate how quality concerns frequently emerge within conversational development workflows, often blurring traditional boundaries between requirements, architecture, implementation, and design rationale.
 
 This artifact is intended as an initial step toward understanding how quality concerns emerge and evolve within conversational software engineering workflows.
 
