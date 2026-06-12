@@ -24,15 +24,23 @@ The purpose of releasing this artifact is to support transparency, reproducibili
 
 Traditional NFR classification research has focused on requirements artifacts such as requirements specifications, issue reports, app reviews, and user stories [1,2]. Developer–LLM conversations present a fundamentally different type of artifact in which requirements, architecture, implementation, debugging, and design rationale frequently appear within the same conversational context [3].
 
-Our preliminary analysis suggests that quality concerns remain pervasive in AI-assisted development environments, but are often expressed conversationally rather than as explicit requirements statements. Examples include discussions of:
+Our preliminary analysis suggests that quality concerns remain pervasive in AI-assisted development environments, but are often expressed conversationally rather than as explicit requirements statements. 
 
-- performance ("it needs to be snappy-ish")
-- scalability
-- reliability and resilience
-- maintainability and refactoring
-- portability
-- usability
-- security
+## Example Quality Concerns Identified in Developer–LLM Conversations
+
+The examples below illustrate how quality concerns emerge naturally within developer–LLM conversations. Unlike traditional requirements artifacts, these concerns are often expressed as questions, implementation requests, architectural tradeoffs, or design discussions rather than as explicit requirements statements.
+
+| Quality Concern Type | Example Developer Prompt |
+|---------------------|--------------------------|
+| **Performance** | *"What is the time complexity? This could run on 1,000 events with ~5 words each and it needs to be snappy-ish."* |
+| **Scalability** | *"The context is that I have PR to Vegeta that aims to reduce the occurrence of 'bind: address already in use' errors that happen when the client runs out of free ephemeral ports to use."* |
+| **Reliability / Resilience** | *"I never want any downtime which would cause the images to not display. ... Is there anything I can do to make the script resilient so that it restarts automatically if the system restarts or if the script crashes?"* |
+| **Maintainability / Refactoring** | *"I have this view for infinite scroll, would be nicer to use Django's paginator, can you refactor it?"* |
+| **Portability** | *"Vegeta already uses connection pooling and HTTP keep-alive. How would you implement your other suggestions for Linux, macOS and Windows?"* |
+| **Usability** | *"But won't this make a messy list for the user? ... users are likely to want to add the whole string 'Mozilla Firefox' when creating/appending a category."* |
+| **Security** | *"Are there any risks / trade-offs involved with setting SO_REUSEADDR on outgoing TCP connection sockets underlying an HTTP client?"* |
+
+These examples were automatically identified by an exploratory agent-based classifier and have not yet undergone comprehensive manual validation. They are provided to illustrate how quality concerns frequently emerge within conversational development workflows, often blurring traditional boundaries between requirements, architecture, implementation, and design rationale.
 
 This artifact is intended as an initial step toward understanding how quality concerns emerge and evolve within conversational software engineering workflows.
 
