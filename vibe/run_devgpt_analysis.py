@@ -46,7 +46,7 @@ except ImportError:
 
 DEVGPT_ROOT      = Path(__file__).parent
 DEFAULT_SNAPSHOT = 'snapshot_20230727'
-DEFAULT_KB       = Path.home() / 'new-dataset/KB-New.json'
+DEFAULT_KB       = Path(__file__).parent / 'KB-New.json'
 DEFAULT_MODEL    = 'claude-sonnet-4-6'
 DEFAULT_MAX_LEN  = 3000
 

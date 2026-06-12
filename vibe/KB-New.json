@@ -1,0 +1,146 @@
+{
+  "performance": {
+    "core_concern": "The speed and resource efficiency with which the system performs its functions under specified conditions.",
+    "classify_if": [
+      "Specifies response time, latency, or completion time for an operation.",
+      "Specifies throughput, processing rate, or transactions per unit time.",
+      "Constrains CPU, memory, storage, bandwidth, or energy consumption.",
+      "Specifies performance under a defined load, network condition, or workload.",
+      "Requires batch or background processing to complete within a time limit."
+    ],
+    "boundary_notes": "Performance is about how fast or efficiently the system works when it is available. Availability is about whether it is reachable. Scalability is about growth in capacity over time or with added resources."
+  },
+  "scalability": {
+    "core_concern": "The system's ability to accommodate growth in users, data, transactions, devices, regions, or workload without unacceptable redesign or degradation.",
+    "classify_if": [
+      "Specifies future or increased capacity requirements.",
+      "Requires support for growing numbers of users, sessions, devices, transactions, or data volume.",
+      "Requires horizontal or vertical scaling by adding resources.",
+      "Requires capacity expansion without major re-architecture or service interruption.",
+      "Specifies that limits must not be hard-coded and must support expansion."
+    ],
+    "boundary_notes": "Scalability is about growth. A fixed current load target is usually Performance; the ability to grow beyond that target is Scalability."
+  },
+  "availability": {
+    "core_concern": "The degree to which the system is operational, reachable, and usable when required.",
+    "classify_if": [
+      "Specifies uptime, downtime, service hours, or availability windows.",
+      "Constrains scheduled outages or maintenance downtime.",
+      "Requires failover, redundancy, graceful degradation, or continued service after component failure.",
+      "Specifies recovery time or recovery point objectives.",
+      "Requires a service, support channel, or interface to be reachable during defined periods."
+    ],
+    "boundary_notes": "Availability is about access to service. Reliability is about correct continued operation. Performance is about speed once the system is available."
+  },
+  "reliability": {
+    "core_concern": "The system's ability to perform correctly and consistently over time under stated conditions.",
+    "classify_if": [
+      "Specifies failure rates, defect rates, error rates, or mean time between failures.",
+      "Requires correct operation over a sustained period or number of executions.",
+      "Requires fault detection, fault recovery, retry behavior, or error containment.",
+      "Requires data consistency, transaction correctness, or prevention of unintended corruption.",
+      "Requires deterministic, repeatable, or predictable behavior under specified conditions."
+    ],
+    "boundary_notes": "Reliability concerns correctness and continuity of behavior. Availability concerns whether the system is up. Safety concerns preventing harm. Security concerns protection against malicious or unauthorized actions."
+  },
+  "security": {
+    "core_concern": "Protection of the system, data, services, and users from unauthorized access, misuse, disclosure, modification, or destruction.",
+    "classify_if": [
+      "Requires authentication, authorization, access control, or role-based permissions.",
+      "Requires encryption, secure communication, credential management, or secure session handling.",
+      "Requires protection against attacks, malicious input, abuse, malware, or denial of service.",
+      "Requires audit logs or monitoring for accountability, forensics, or intrusion detection.",
+      "Requires privacy protection or limits on disclosure of sensitive information.",
+      "Requires integrity controls to prevent unauthorized tampering."
+    ],
+    "boundary_notes": "Security is about protection from unauthorized or malicious actions. Legal/compliance may overlap when a named law, regulation, or mandated standard is cited."
+  },
+  "safety": {
+    "core_concern": "The system's ability to avoid causing or contributing to harm to people, property, infrastructure, mission assets, or the environment.",
+    "classify_if": [
+      "Requires prevention, mitigation, or detection of hazardous states.",
+      "Requires fail-safe behavior, emergency stop, safe fallback, containment, or controlled shutdown.",
+      "Constrains operation to protect humans, vehicles, equipment, infrastructure, or the environment.",
+      "Requires hazard analysis, risk reduction, safety margins, or safety certification evidence.",
+      "Requires the system to maintain safe behavior under faults, uncertainty, or degraded conditions."
+    ],
+    "boundary_notes": "Safety is about preventing harm. Security is about resisting unauthorized or malicious action. Reliability supports safety but is not itself safety unless harm or hazard is the concern."
+  },
+  "usability": {
+    "core_concern": "The ease, effectiveness, efficiency, and satisfaction with which intended users can learn and use the system to achieve their goals.",
+    "classify_if": [
+      "Specifies ease of learning, training time, intuitiveness, or self-explanatory operation.",
+      "Specifies task completion time, success rate, error rate, or user satisfaction target.",
+      "Requires clear feedback, guidance, help, documentation, or error prevention for users.",
+      "Requires terminology, workflow, or interaction design to match user expectations.",
+      "Requires accessibility for users with disabilities when framed as user effectiveness rather than legal compliance."
+    ],
+    "boundary_notes": "Usability is about human effectiveness in use. Look-and-feel is about visual or sensory presentation. Performance is about system speed, though some requirements may involve both."
+  },
+  "maintainability": {
+    "core_concern": "The ease with which the system can be corrected, modified, extended, configured, tested, diagnosed, and evolved over its lifetime.",
+    "classify_if": [
+      "Requires modularity, separation of concerns, coding standards, design patterns, or architectural constraints that support future change.",
+      "Specifies how quickly or easily developers or administrators can modify, extend, repair, or configure the system.",
+      "Requires diagnostic logs, monitoring, exception reports, or troubleshooting support for maintainers.",
+      "Requires automated tests, testability, documentation, or traceability to support maintenance.",
+      "Specifies update, patching, release, or configuration-management expectations."
+    ],
+    "boundary_notes": "Maintainability is about changing and sustaining the system. Portability is about moving it to another environment. Availability concerns service continuity during operation."
+  },
+  "portability": {
+    "core_concern": "The ease with which the system can be transferred, adapted, installed, or executed across different platforms, environments, devices, or infrastructures.",
+    "classify_if": [
+      "Requires the system to run on multiple operating systems, browsers, devices, hardware platforms, or cloud environments.",
+      "Requires migration from one platform, database, runtime, or infrastructure provider to another.",
+      "Requires easy installation, deployment, packaging, or environment setup across supported platforms.",
+      "Requires platform independence, containerization, or avoidance of environment-specific dependencies.",
+      "Requires adaptation to different deployment environments without major code changes."
+    ],
+    "boundary_notes": "Portability is about movement across environments. Interoperability is about communicating with other systems. Environmental constraints describe physical or contextual operating conditions."
+  },
+  "interoperability": {
+    "core_concern": "The system's ability to exchange information and cooperate correctly with other systems, services, devices, organizations, or components.",
+    "classify_if": [
+      "Requires integration with a named external system, service, database, API, device, or platform.",
+      "Specifies communication protocols, message formats, data schemas, or interface contracts for exchange with other systems.",
+      "Requires import, export, synchronization, or data sharing with external systems.",
+      "Requires compatibility with third-party tools, services, sensors, clients, or enterprise infrastructure.",
+      "Requires semantic consistency or correct interpretation of exchanged data across systems."
+    ],
+    "boundary_notes": "Interoperability is about working with other systems. Portability is about running in different environments. Legal/compliance may overlap when the interface standard is externally mandated."
+  },
+  "legal-compliance": {
+    "core_concern": "The system's obligation to comply with externally imposed laws, regulations, standards, certifications, licenses, contracts, or governing-body requirements.",
+    "classify_if": [
+      "Cites a named law, regulation, directive, certification, or external standard.",
+      "Requires an audit, report, retention policy, consent mechanism, accessibility provision, or privacy practice because of an external legal or regulatory obligation.",
+      "Requires certification, approval, inspection, or conformance assessment by an external authority.",
+      "Imposes licensing, intellectual-property, contractual, or third-party obligation constraints.",
+      "Requires adherence to industry, safety, financial, medical, aviation, accessibility, or data-protection regulations."
+    ],
+    "boundary_notes": "Classify as Legal/Compliance when the requirement explicitly references an external obligation or authority. Do not infer Legal/Compliance merely because a requirement could have legal motivation."
+  },
+  "look-and-feel": {
+    "core_concern": "The visual, auditory, and sensory presentation of the system's user interface or externally visible behavior.",
+    "classify_if": [
+      "Specifies colors, fonts, icons, branding, layout, spacing, or visual style.",
+      "Requires the interface to follow a style guide, template, theme, or corporate identity.",
+      "Describes aesthetic qualities such as modern, professional, attractive, simple, or consistent.",
+      "Specifies animations, sounds, visual effects, or presentation behavior.",
+      "Requires readability, display resolution, screen layout, or presentation constraints as appearance requirements."
+    ],
+    "boundary_notes": "Look-and-feel is about presentation. Usability is about whether users can accomplish tasks effectively. Accessibility may be Usability or Legal/Compliance depending on motivation."
+  },
+  "environmental": {
+    "core_concern": "The physical, operational, network, geographic, or contextual conditions under which the system must function.",
+    "classify_if": [
+      "Requires operation under specific temperature, humidity, lighting, vibration, altitude, weather, terrain, or noise conditions.",
+      "Requires operation in constrained network conditions such as low bandwidth, high latency, intermittent connectivity, or disconnected mode.",
+      "Requires operation in field, mobile, outdoor, industrial, disaster, battlefield, clinical, or other special physical environments.",
+      "Constrains behavior based on location, geography, airspace, physical proximity, or environmental hazards.",
+      "Requires robustness to environmental uncertainty, sensor limitations, degraded signals, or changing physical context."
+    ],
+    "boundary_notes": "Environmental requirements describe the conditions surrounding system operation. Safety concerns harm in those conditions. Performance concerns speed under those conditions. Portability concerns movement across technical platforms."
+  }
+}
