@@ -1,4 +1,4 @@
-![Workflow of the citation review](figures/workflow.png)
+![Workflow of the citation review](workflow.png)
 
 | Step | Action | #Papers | Artifacts |
 |---|---|--|---|
