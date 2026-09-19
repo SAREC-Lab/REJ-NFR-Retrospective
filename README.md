@@ -32,11 +32,24 @@ Together, these artifacts document how a single research contribution evolved in
 
 | Directory          | Description                                             |
 | ------------------ | ------------------------------------------------------- |
-|[Analyzed Papers](papers/analysis.md)| References and metadata for analyzed papers             |
-| `impact-analysis/` | Citation analysis results and influence classifications |
 | `datasets/`        | PROMISE datasets and related resources                  |
 | [Replicated Techniques](Replication.md)| Replication implementations of selected approaches      |
 | [Vibe-Coding](vibe/analysis.md)      | Architecturally Significant Concerns in Vibe-Coding |
+
+
+## Citation Review
+
+![Workflow of the citation review](workflow.png)
+
+| Step | Action | #Papers | Artifacts |
+|---|---|--|---|
+| 1 | Semantic Scholar retrieval  | 273 | [List](scripts/01_retrieval/) |
+| 2 | Citation normalization      | 147 | [List](meth02-normalized.md) |
+| 3 | Influence analysis          |65   |  [List](meth03-influence.md) |
+| 4 | Codebook and tag generation |     | [files](analysis/codebook/) |
+| 5 | Manual review  - Final Paper set:       | __55__  | [List](meth04-final.md) |
+| 6 | Replication package | | [scripts](scripts/), [prompts](prompts/), [artifacts](artifacts/) |
+
 
 
 ## Citation Corpus
